@@ -1,0 +1,908 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+body #calendari {
+  width: 360px !important;
+  height: 320px !important;
+  margin-left: 1%;
+}
+body .dropdown-center {
+  margin-top: -20%;
+  margin-left: 50px;
+}
+body .dropdown-center button {
+  box-shadow: rgb(114, 109, 109) 2px 2px 2px 2px;
+  border-radius: 15px;
+}
+body .katta_block {
+  margin-top: 2%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-left: -50px;
+}
+body .katta_block img {
+  border-radius: 20px 20px 0 0;
+}
+body .katta_block .block1 {
+  margin-left: 5%;
+}
+body .katta_block .block1 .d_matematika {
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 20px;
+}
+body .katta_block .block1 .d_matematika .p1 {
+  margin-top: -20%;
+  font-size: 20px;
+  margin-left: 5%;
+  width: 50%;
+}
+body .katta_block .block1 .d_matematika .p2 {
+  margin-top: -3%;
+  margin-left: 5%;
+  color: rgb(148, 144, 144);
+  width: 55%;
+}
+body .katta_block .block1 .d_matematika .btn {
+  width: 26%;
+  height: 15%;
+  border-radius: 40px;
+  margin-left: 65%;
+  margin-top: 15%;
+  background-color: deeppink;
+  border: none;
+}
+body .katta_block .block1 .d_Fransuz-tili {
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+body .katta_block .block1 .d_Fransuz-tili .p1 {
+  margin-top: -20%;
+  font-size: 20px;
+  margin-left: 5%;
+  width: 50%;
+}
+body .katta_block .block1 .d_Fransuz-tili .p2 {
+  margin-top: -3%;
+  margin-left: 5%;
+  color: rgb(148, 144, 144);
+  width: 55%;
+}
+body .katta_block .block1 .d_Fransuz-tili .btn {
+  width: 30%;
+  height: 15%;
+  border-radius: 40px;
+  margin-left: 65%;
+  margin-top: 15%;
+  background-color: deeppink;
+  border: none;
+}
+body .katta_block .block1 .d_nemistili {
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+body .katta_block .block1 .d_nemistili .p1 {
+  margin-top: -20%;
+  font-size: 20px;
+  margin-left: 5%;
+  width: 50%;
+}
+body .katta_block .block1 .d_nemistili .p2 {
+  margin-top: -3%;
+  margin-left: 5%;
+  color: rgb(148, 144, 144);
+  width: 55%;
+}
+body .katta_block .block1 .d_nemistili .btn {
+  width: 30%;
+  height: 15%;
+  border-radius: 40px;
+  margin-left: 65%;
+  margin-top: 15%;
+  background-color: deeppink;
+  border: none;
+}
+body .katta_block .block1 .d_geografiya {
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+body .katta_block .block1 .d_geografiya .p1 {
+  margin-top: -20%;
+  font-size: 20px;
+  margin-left: 5%;
+  width: 50%;
+}
+body .katta_block .block1 .d_geografiya .p2 {
+  margin-top: -3%;
+  margin-left: 5%;
+  color: rgb(148, 144, 144);
+  width: 55%;
+}
+body .katta_block .block1 .d_geografiya .btn {
+  width: 30%;
+  height: 15%;
+  border-radius: 40px;
+  margin-left: 65%;
+  margin-top: 15%;
+  background-color: deeppink;
+  border: none;
+}
+body .katta_block .block1 .d_tarix {
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+body .katta_block .block1 .d_tarix .p1 {
+  margin-top: -20%;
+  font-size: 20px;
+  margin-left: 5%;
+  width: 50%;
+}
+body .katta_block .block1 .d_tarix .p2 {
+  margin-top: -3%;
+  margin-left: 5%;
+  color: rgb(148, 144, 144);
+  width: 55%;
+}
+body .katta_block .block1 .d_tarix .btn {
+  width: 30%;
+  height: 15%;
+  border-radius: 40px;
+  margin-left: 65%;
+  margin-top: 15%;
+  background-color: deeppink;
+  border: none;
+}
+body .katta_block .block2 {
+  margin-left: 5%;
+}
+body .katta_block .block2 .d_adabiyot {
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 20px;
+}
+body .katta_block .block2 .d_adabiyot .p1 {
+  margin-top: -20%;
+  font-size: 20px;
+  margin-left: 5%;
+  width: 50%;
+}
+body .katta_block .block2 .d_adabiyot .p2 {
+  margin-top: -3%;
+  margin-left: 5%;
+  color: rgb(148, 144, 144);
+  width: 55%;
+}
+body .katta_block .block2 .d_adabiyot .btn {
+  width: 26%;
+  height: 15%;
+  border-radius: 40px;
+  margin-left: 65%;
+  margin-top: 15%;
+  background-color: deeppink;
+  border: none;
+}
+body .katta_block .block2 .d_onatili {
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+body .katta_block .block2 .d_onatili .p1 {
+  margin-top: -20%;
+  font-size: 20px;
+  margin-left: 5%;
+  width: 50%;
+}
+body .katta_block .block2 .d_onatili .p2 {
+  margin-top: -3%;
+  margin-left: 5%;
+  color: rgb(148, 144, 144);
+  width: 55%;
+}
+body .katta_block .block2 .d_onatili .btn {
+  width: 30%;
+  height: 15%;
+  border-radius: 40px;
+  margin-left: 65%;
+  margin-top: 15%;
+  background-color: deeppink;
+  border: none;
+}
+body .katta_block .block2 .d_inglistili {
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+body .katta_block .block2 .d_inglistili .p1 {
+  margin-top: -20%;
+  font-size: 20px;
+  margin-left: 5%;
+  width: 50%;
+}
+body .katta_block .block2 .d_inglistili .p2 {
+  margin-top: -3%;
+  margin-left: 5%;
+  color: rgb(148, 144, 144);
+  width: 55%;
+}
+body .katta_block .block2 .d_inglistili .btn {
+  width: 30%;
+  height: 15%;
+  border-radius: 40px;
+  margin-left: 65%;
+  margin-top: 15%;
+  background-color: deeppink;
+  border: none;
+}
+body .katta_block .block2 .d_rustili {
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+body .katta_block .block2 .d_rustili .p1 {
+  margin-top: -20%;
+  font-size: 20px;
+  margin-left: 5%;
+  width: 50%;
+}
+body .katta_block .block2 .d_rustili .p2 {
+  margin-top: -3%;
+  margin-left: 5%;
+  color: rgb(148, 144, 144);
+  width: 55%;
+}
+body .katta_block .block2 .d_rustili .btn {
+  width: 30%;
+  height: 15%;
+  border-radius: 40px;
+  margin-left: 65%;
+  margin-top: 15%;
+  background-color: deeppink;
+  border: none;
+}
+body .katta_block .block2 .d_informatika {
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+body .katta_block .block2 .d_informatika .p1 {
+  margin-top: -20%;
+  font-size: 20px;
+  margin-left: 5%;
+  width: 50%;
+}
+body .katta_block .block2 .d_informatika .p2 {
+  margin-top: -3%;
+  margin-left: 5%;
+  color: rgb(148, 144, 144);
+  width: 55%;
+}
+body .katta_block .block2 .d_informatika .btn {
+  width: 30%;
+  height: 15%;
+  border-radius: 40px;
+  margin-left: 65%;
+  margin-top: 15%;
+  background-color: deeppink;
+  border: none;
+}
+
+@media only screen and (max-width: 1070px) {
+  body {
+    width: 100%;
+  }
+  #calendari {
+    width: 320px !important;
+    height: 315px !important;
+  }
+  .dropdown-menu {
+    height: 200px !important;
+  }
+  .d_matematika, .d_Fransuz-tili, .d_nemistili, .d_geografiya, .d_tarix {
+    width: 90% !important;
+    height: 23% !important;
+  }
+  .d_matematika .img img, .d_Fransuz-tili .img img, .d_nemistili .img img, .d_geografiya .img img, .d_tarix .img img {
+    width: 101% !important;
+  }
+  .d_matematika .btn, .d_Fransuz-tili .btn, .d_nemistili .btn, .d_geografiya .btn, .d_tarix .btn {
+    margin-top: 35% !important;
+    margin-left: 35% !important;
+  }
+  .d_matematika .p1, .d_Fransuz-tili .p1, .d_nemistili .p1, .d_geografiya .p1, .d_tarix .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .d_matematika .p2, .d_Fransuz-tili .p2, .d_nemistili .p2, .d_geografiya .p2, .d_tarix .p2 {
+    margin-top: -5% !important;
+    margin-left: 23% !important;
+    width: 70% !important;
+  }
+  .block2 {
+    margin-left: -2% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 90% !important;
+    height: 23% !important;
+  }
+  .block2 .d_adabiyot .img img, .block2 .d_onatili .img img, .block2 .d_inglistili .img img, .block2 .d_rustili .img img, .block2 .d_informatika .img img {
+    width: 101% !important;
+  }
+  .block2 .d_adabiyot .btn, .block2 .d_onatili .btn, .block2 .d_inglistili .btn, .block2 .d_rustili .btn, .block2 .d_informatika .btn {
+    margin-top: 32% !important;
+    margin-left: 35% !important;
+  }
+  .block2 .d_adabiyot .p1, .block2 .d_onatili .p1, .block2 .d_inglistili .p1, .block2 .d_rustili .p1, .block2 .d_informatika .p1 {
+    margin-top: -47% !important;
+    margin-left: 30% !important;
+  }
+  .block2 .d_adabiyot .p2, .block2 .d_onatili .p2, .block2 .d_inglistili .p2, .block2 .d_rustili .p2, .block2 .d_informatika .p2 {
+    margin-top: -5% !important;
+    margin-left: 21% !important;
+    width: 78% !important;
+  }
+}
+@media only screen and (max-width: 999px) {
+  #calendari {
+    width: 300px !important;
+    height: 315px !important;
+    margin-left: 1%;
+  }
+  .block1 {
+    margin-left: 5% !important;
+  }
+  .block1 .d_matematika, .block1 .d_Fransuz-tili, .block1 .d_nemistili, .block1 .d_geografiya, .block1 .d_tarix {
+    width: 100% !important;
+    height: 20% !important;
+  }
+  .block1 .d_matematika .img img, .block1 .d_Fransuz-tili .img img, .block1 .d_nemistili .img img, .block1 .d_geografiya .img img, .block1 .d_tarix .img img {
+    width: 101% !important;
+  }
+  .block1 .d_matematika .btn, .block1 .d_Fransuz-tili .btn, .block1 .d_nemistili .btn, .block1 .d_geografiya .btn, .block1 .d_tarix .btn {
+    width: 300px;
+    margin-top: 30% !important;
+    margin-left: 35% !important;
+  }
+  .block1 .d_matematika .p1, .block1 .d_Fransuz-tili .p1, .block1 .d_nemistili .p1, .block1 .d_geografiya .p1, .block1 .d_tarix .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block1 .d_matematika .p2, .block1 .d_Fransuz-tili .p2, .block1 .d_nemistili .p2, .block1 .d_geografiya .p2, .block1 .d_tarix .p2 {
+    margin-top: -5% !important;
+    margin-left: 10% !important;
+    width: 75% !important;
+  }
+  .block2 {
+    margin-left: 10% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 100% !important;
+    height: 20% !important;
+  }
+  .block2 .d_adabiyot .img img, .block2 .d_onatili .img img, .block2 .d_inglistili .img img, .block2 .d_rustili .img img, .block2 .d_informatika .img img {
+    width: 101% !important;
+  }
+  .block2 .d_adabiyot .btn, .block2 .d_onatili .btn, .block2 .d_inglistili .btn, .block2 .d_rustili .btn, .block2 .d_informatika .btn {
+    margin-top: 30% !important;
+    margin-left: 35% !important;
+  }
+  .block2 .d_adabiyot .p1, .block2 .d_onatili .p1, .block2 .d_inglistili .p1, .block2 .d_rustili .p1, .block2 .d_informatika .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block2 .d_adabiyot .p2, .block2 .d_onatili .p2, .block2 .d_inglistili .p2, .block2 .d_rustili .p2, .block2 .d_informatika .p2 {
+    margin-top: -5% !important;
+    margin-left: 10% !important;
+    width: 755% !important;
+  }
+}
+@media only screen and (max-width: 998px) {
+  #calendari {
+    width: 300px !important;
+    height: 315px !important;
+    margin-left: 1%;
+  }
+  .block1 {
+    margin-top: 10% !important;
+    margin-left: 40% !important;
+  }
+  .block1 .d_matematika, .block1 .d_Fransuz-tili, .block1 .d_nemistili, .block1 .d_geografiya, .block1 .d_tarix {
+    width: 100% !important;
+    height: 30% !important;
+  }
+  .block1 .d_matematika .img img, .block1 .d_Fransuz-tili .img img, .block1 .d_nemistili .img img, .block1 .d_geografiya .img img, .block1 .d_tarix .img img {
+    width: 101% !important;
+  }
+  .block1 .d_matematika .btn, .block1 .d_Fransuz-tili .btn, .block1 .d_nemistili .btn, .block1 .d_geografiya .btn, .block1 .d_tarix .btn {
+    width: 300px;
+    margin-top: 30% !important;
+    margin-left: 35% !important;
+  }
+  .block1 .d_matematika .p1, .block1 .d_Fransuz-tili .p1, .block1 .d_nemistili .p1, .block1 .d_geografiya .p1, .block1 .d_tarix .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block1 .d_matematika .p2, .block1 .d_Fransuz-tili .p2, .block1 .d_nemistili .p2, .block1 .d_geografiya .p2, .block1 .d_tarix .p2 {
+    margin-top: -5% !important;
+    margin-left: 15% !important;
+    width: 75% !important;
+  }
+  .block2 {
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 100% !important;
+    height: 30% !important;
+  }
+  .block2 .d_adabiyot .img img, .block2 .d_onatili .img img, .block2 .d_inglistili .img img, .block2 .d_rustili .img img, .block2 .d_informatika .img img {
+    width: 101% !important;
+  }
+  .block2 .d_adabiyot .btn, .block2 .d_onatili .btn, .block2 .d_inglistili .btn, .block2 .d_rustili .btn, .block2 .d_informatika .btn {
+    margin-top: 30% !important;
+    margin-left: 35% !important;
+  }
+  .block2 .d_adabiyot .p1, .block2 .d_onatili .p1, .block2 .d_inglistili .p1, .block2 .d_rustili .p1, .block2 .d_informatika .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block2 .d_adabiyot .p2, .block2 .d_onatili .p2, .block2 .d_inglistili .p2, .block2 .d_rustili .p2, .block2 .d_informatika .p2 {
+    margin-top: -5% !important;
+    margin-left: 15% !important;
+    width: 75% !important;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .block1 {
+    margin-left: 40% !important;
+  }
+  .block2 {
+    margin-left: 5% !important;
+  }
+  .big__div .big_two_div {
+    width: 89%;
+    margin-top: 90% !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #calendari {
+    width: 300px !important;
+    height: 315px !important;
+    margin-left: 1%;
+  }
+  .block1 {
+    margin-top: 10% !important;
+    margin-left: 45% !important;
+  }
+  .block1 .d_matematika, .block1 .d_Fransuz-tili, .block1 .d_nemistili, .block1 .d_geografiya, .block1 .d_tarix {
+    width: 120% !important;
+    height: 25% !important;
+  }
+  .block1 .d_matematika .img img, .block1 .d_Fransuz-tili .img img, .block1 .d_nemistili .img img, .block1 .d_geografiya .img img, .block1 .d_tarix .img img {
+    width: 101% !important;
+  }
+  .block1 .d_matematika .btn, .block1 .d_Fransuz-tili .btn, .block1 .d_nemistili .btn, .block1 .d_geografiya .btn, .block1 .d_tarix .btn {
+    width: 300px;
+    margin-top: 30% !important;
+    margin-left: 35% !important;
+  }
+  .block1 .d_matematika .p1, .block1 .d_Fransuz-tili .p1, .block1 .d_nemistili .p1, .block1 .d_geografiya .p1, .block1 .d_tarix .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block1 .d_matematika .p2, .block1 .d_Fransuz-tili .p2, .block1 .d_nemistili .p2, .block1 .d_geografiya .p2, .block1 .d_tarix .p2 {
+    margin-top: -5% !important;
+    margin-left: 15% !important;
+    width: 75% !important;
+  }
+  .block2 {
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 120% !important;
+    height: 25% !important;
+  }
+  .block2 .d_adabiyot .img img, .block2 .d_onatili .img img, .block2 .d_inglistili .img img, .block2 .d_rustili .img img, .block2 .d_informatika .img img {
+    width: 101% !important;
+  }
+  .block2 .d_adabiyot .btn, .block2 .d_onatili .btn, .block2 .d_inglistili .btn, .block2 .d_rustili .btn, .block2 .d_informatika .btn {
+    margin-top: 30% !important;
+    margin-left: 35% !important;
+  }
+  .block2 .d_adabiyot .p1, .block2 .d_onatili .p1, .block2 .d_inglistili .p1, .block2 .d_rustili .p1, .block2 .d_informatika .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block2 .d_adabiyot .p2, .block2 .d_onatili .p2, .block2 .d_inglistili .p2, .block2 .d_rustili .p2, .block2 .d_informatika .p2 {
+    margin-top: -5% !important;
+    margin-left: 15% !important;
+    width: 75% !important;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .block1 {
+    margin-top: 10% !important;
+    margin-left: 40% !important;
+  }
+  .block1 .d_matematika, .block1 .d_Fransuz-tili, .block1 .d_nemistili, .block1 .d_geografiya, .block1 .d_tarix {
+    width: 120% !important;
+    height: 25% !important;
+  }
+  .block1 .d_matematika .img img, .block1 .d_Fransuz-tili .img img, .block1 .d_nemistili .img img, .block1 .d_geografiya .img img, .block1 .d_tarix .img img {
+    width: 101% !important;
+  }
+  .block1 .d_matematika .btn, .block1 .d_Fransuz-tili .btn, .block1 .d_nemistili .btn, .block1 .d_geografiya .btn, .block1 .d_tarix .btn {
+    width: 300px;
+    margin-top: 30% !important;
+    margin-left: 35% !important;
+  }
+  .block1 .d_matematika .p1, .block1 .d_Fransuz-tili .p1, .block1 .d_nemistili .p1, .block1 .d_geografiya .p1, .block1 .d_tarix .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block1 .d_matematika .p2, .block1 .d_Fransuz-tili .p2, .block1 .d_nemistili .p2, .block1 .d_geografiya .p2, .block1 .d_tarix .p2 {
+    margin-top: -5% !important;
+    margin-left: 15% !important;
+    width: 75% !important;
+  }
+  .block2 {
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 120% !important;
+    height: 25% !important;
+  }
+  .block2 .d_adabiyot .img img, .block2 .d_onatili .img img, .block2 .d_inglistili .img img, .block2 .d_rustili .img img, .block2 .d_informatika .img img {
+    width: 101% !important;
+  }
+  .block2 .d_adabiyot .btn, .block2 .d_onatili .btn, .block2 .d_inglistili .btn, .block2 .d_rustili .btn, .block2 .d_informatika .btn {
+    margin-top: 30% !important;
+    margin-left: 35% !important;
+  }
+  .block2 .d_adabiyot .p1, .block2 .d_onatili .p1, .block2 .d_inglistili .p1, .block2 .d_rustili .p1, .block2 .d_informatika .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block2 .d_adabiyot .p2, .block2 .d_onatili .p2, .block2 .d_inglistili .p2, .block2 .d_rustili .p2, .block2 .d_informatika .p2 {
+    margin-top: -5% !important;
+    margin-left: 15% !important;
+    width: 75% !important;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .block1 {
+    margin-top: 10% !important;
+    margin-left: 40% !important;
+  }
+  .block1 .d_matematika, .block1 .d_Fransuz-tili, .block1 .d_nemistili, .block1 .d_geografiya, .block1 .d_tarix {
+    width: 125% !important;
+    height: 25% !important;
+  }
+  .block1 .d_matematika .img img, .block1 .d_Fransuz-tili .img img, .block1 .d_nemistili .img img, .block1 .d_geografiya .img img, .block1 .d_tarix .img img {
+    width: 101% !important;
+  }
+  .block1 .d_matematika .btn, .block1 .d_Fransuz-tili .btn, .block1 .d_nemistili .btn, .block1 .d_geografiya .btn, .block1 .d_tarix .btn {
+    width: 350px;
+    margin-top: 35% !important;
+    margin-left: 35% !important;
+  }
+  .block1 .d_matematika .p1, .block1 .d_Fransuz-tili .p1, .block1 .d_nemistili .p1, .block1 .d_geografiya .p1, .block1 .d_tarix .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block1 .d_matematika .p2, .block1 .d_Fransuz-tili .p2, .block1 .d_nemistili .p2, .block1 .d_geografiya .p2, .block1 .d_tarix .p2 {
+    margin-top: -5% !important;
+    margin-left: 15% !important;
+    width: 75% !important;
+  }
+  .dropdown-toggle {
+    margin-top: 10%;
+    margin-left: -5%;
+  }
+  .block2 {
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 125% !important;
+    height: 25% !important;
+  }
+  .block2 .d_adabiyot .img img, .block2 .d_onatili .img img, .block2 .d_inglistili .img img, .block2 .d_rustili .img img, .block2 .d_informatika .img img {
+    width: 101% !important;
+  }
+  .block2 .d_adabiyot .btn, .block2 .d_onatili .btn, .block2 .d_inglistili .btn, .block2 .d_rustili .btn, .block2 .d_informatika .btn {
+    margin-top: 30% !important;
+    margin-left: 35% !important;
+  }
+  .block2 .d_adabiyot .p1, .block2 .d_onatili .p1, .block2 .d_inglistili .p1, .block2 .d_rustili .p1, .block2 .d_informatika .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block2 .d_adabiyot .p2, .block2 .d_onatili .p2, .block2 .d_inglistili .p2, .block2 .d_rustili .p2, .block2 .d_informatika .p2 {
+    margin-top: -5% !important;
+    margin-left: 15% !important;
+    width: 75% !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .dropdown-center {
+    margin-left: 40% !important;
+  }
+  .dropdown-center .btn {
+    width: 45% !important;
+  }
+  .dropdown-center .dropdown-menu {
+    height: 100px !important;
+  }
+  .katta_block {
+    margin-top: 10% !important;
+  }
+  .katta_block .block1 {
+    margin-left: 50% !important;
+  }
+  .katta_block .block1 .d_matematika, .katta_block .block1 .d_Fransuz-tili, .katta_block .block1 .d_nemistili, .katta_block .block1 .d_geografiya, .katta_block .block1 .d_tarix {
+    width: 90% !important;
+    height: 11% !important;
+  }
+  .katta_block .block1 .d_matematika .img img, .katta_block .block1 .d_Fransuz-tili .img img, .katta_block .block1 .d_nemistili .img img, .katta_block .block1 .d_geografiya .img img, .katta_block .block1 .d_tarix .img img {
+    width: 100% !important;
+  }
+  .katta_block .block1 .d_matematika .btn, .katta_block .block1 .d_Fransuz-tili .btn, .katta_block .block1 .d_nemistili .btn, .katta_block .block1 .d_geografiya .btn, .katta_block .block1 .d_tarix .btn {
+    margin-top: 23% !important;
+    margin-left: 35% !important;
+  }
+  .katta_block .block1 .d_matematika .p1, .katta_block .block1 .d_Fransuz-tili .p1, .katta_block .block1 .d_nemistili .p1, .katta_block .block1 .d_geografiya .p1, .katta_block .block1 .d_tarix .p1 {
+    margin-top: -38% !important;
+    margin-left: 30% !important;
+  }
+  .katta_block .block1 .d_matematika .p2, .katta_block .block1 .d_Fransuz-tili .p2, .katta_block .block1 .d_nemistili .p2, .katta_block .block1 .d_geografiya .p2, .katta_block .block1 .d_tarix .p2 {
+    margin-top: -5% !important;
+    margin-left: 23% !important;
+    width: 70% !important;
+  }
+  .block2 {
+    margin-top: 240% !important;
+    margin-left: -48% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 90% !important;
+    height: 28% !important;
+  }
+  .block2 .d_adabiyot .img img, .block2 .d_onatili .img img, .block2 .d_inglistili .img img, .block2 .d_rustili .img img, .block2 .d_informatika .img img {
+    width: 101% !important;
+  }
+  .block2 .d_adabiyot .btn, .block2 .d_onatili .btn, .block2 .d_inglistili .btn, .block2 .d_rustili .btn, .block2 .d_informatika .btn {
+    margin-top: 30% !important;
+    margin-left: 35% !important;
+  }
+  .block2 .d_adabiyot .p1, .block2 .d_onatili .p1, .block2 .d_inglistili .p1, .block2 .d_rustili .p1, .block2 .d_informatika .p1 {
+    margin-top: -45% !important;
+    margin-left: 30% !important;
+  }
+  .block2 .d_adabiyot .p2, .block2 .d_onatili .p2, .block2 .d_inglistili .p2, .block2 .d_rustili .p2, .block2 .d_informatika .p2 {
+    margin-top: -5% !important;
+    margin-left: 20% !important;
+    width: 75% !important;
+  }
+  .big__div .big_two_div {
+    width: 89%;
+    margin-top: 120% !important;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .d_matematika, .d_Fransuz-tili, .d_nemistili, .d_geografiya, .d_tarix {
+    width: 90% !important;
+    height: 13% !important;
+  }
+  .block2 {
+    margin-top: 247% !important;
+    margin-left: -49% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 90% !important;
+    height: 27% !important;
+  }
+  .big__div .big_two_div {
+    margin-top: 170% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .block2 {
+    margin-top: 253% !important;
+    margin-left: -49% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 90% !important;
+    height: 27% !important;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .block1 .d_matematika, .block1 .d_Fransuz-tili, .block1 .d_nemistili, .block1 .d_geografiya, .block1 .d_tarix {
+    width: 90% !important;
+    height: 30% !important;
+  }
+  .block2 {
+    margin-top: 260% !important;
+    margin-left: -52% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 90% !important;
+    height: 25% !important;
+  }
+  .block2 .d_adabiyot .img img, .block2 .d_onatili .img img, .block2 .d_inglistili .img img, .block2 .d_rustili .img img, .block2 .d_informatika .img img {
+    width: 101% !important;
+  }
+  .block2 .d_adabiyot .btn, .block2 .d_onatili .btn, .block2 .d_inglistili .btn, .block2 .d_rustili .btn, .block2 .d_informatika .btn {
+    margin-top: 23% !important;
+    margin-left: 35% !important;
+  }
+  .block2 .d_adabiyot .p1, .block2 .d_onatili .p1, .block2 .d_inglistili .p1, .block2 .d_rustili .p1, .block2 .d_informatika .p1 {
+    margin-top: -38% !important;
+    margin-left: 30% !important;
+  }
+  .block2 .d_adabiyot .p2, .block2 .d_onatili .p2, .block2 .d_inglistili .p2, .block2 .d_rustili .p2, .block2 .d_informatika .p2 {
+    margin-top: -5% !important;
+    margin-left: 23% !important;
+    width: 70% !important;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .block2 {
+    margin-top: 270% !important;
+    margin-left: -50% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 90% !important;
+    height: 26% !important;
+  }
+  .big__div .big_two_div {
+    top: 200% !important;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .katta_block {
+    margin-left: -5% !important;
+  }
+  .block2 {
+    margin-top: 280% !important;
+    margin-left: -50% !important;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    width: 90% !important;
+    height: 26% !important;
+  }
+  .big__div .big_two_div {
+    width: 89%;
+    margin-top: 100% !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .block2 {
+    margin-top: 300% !important;
+    margin-left: -55% !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .katta_block {
+    margin-left: -10% !important;
+  }
+  .block2 {
+    margin-top: 320% !important;
+    margin-left: -70% !important;
+  }
+  .block2 .btn {
+    margin-top: 30% !important;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .katta_block {
+    margin-left: -10% !important;
+  }
+  .block2 {
+    margin-top: 340% !important;
+    margin-left: -70% !important;
+  }
+  .big__div .big_two_div {
+    width: 89%;
+    margin-top: 130% !important;
+  }
+}
+@media only screen and (max-width: 398px) {
+  .katta_block {
+    margin-left: -10% !important;
+  }
+  .block1 {
+    display: none;
+  }
+  .block2 {
+    width: 100% !important;
+    margin-top: 40% !important;
+    margin-left: 80%;
+  }
+  .block2 .d_adabiyot, .block2 .d_onatili, .block2 .d_inglistili, .block2 .d_rustili, .block2 .d_informatika {
+    margin-left: 94%;
+    height: 20% !important;
+  }
+  .block2 .d_adabiyot .img, .block2 .d_onatili .img, .block2 .d_inglistili .img, .block2 .d_rustili .img, .block2 .d_informatika .img {
+    width: 99% !important;
+  }
+  .block2 .d_adabiyot .btn, .block2 .d_onatili .btn, .block2 .d_inglistili .btn, .block2 .d_rustili .btn, .block2 .d_informatika .btn {
+    margin-top: 5% !important;
+  }
+  .block2 .d_adabiyot .p1, .block2 .d_onatili .p1, .block2 .d_inglistili .p1, .block2 .d_rustili .p1, .block2 .d_informatika .p1 {
+    display: none;
+  }
+  .block2 .d_adabiyot .p2, .block2 .d_onatili .p2, .block2 .d_inglistili .p2, .block2 .d_rustili .p2, .block2 .d_informatika .p2 {
+    display: none;
+  }
+  .big__div .big_two_div {
+    width: 89%;
+    margin-top: -150% !important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .katta_block {
+    margin-left: -10% !important;
+  }
+  .dropdown-menu {
+    height: 200px !important;
+  }
+  .block1 {
+    width: 100% !important;
+  }
+  .block1 .btn {
+    width: 50% !important;
+    margin-left: -30% !important;
+  }
+  #calendari {
+    display: none;
+  }
+  .block2 {
+    width: 100% !important;
+    margin-left: -70% !important;
+  }
+  .block2 .btn {
+    width: 50% !important;
+  }
+  .big__div .big_two_div {
+    width: 89%;
+    margin-top: 130% !important;
+  }
+  .img__one {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .img__one {
+    width: 110% !important;
+  }
+  .katta_block {
+    margin-left: 50% !important;
+  }
+}/*# sourceMappingURL=styke.css.map */

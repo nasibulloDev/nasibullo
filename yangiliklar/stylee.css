@@ -1,0 +1,1913 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+}
+body .img__one {
+  background-image: url(../photo_2022-11-03_15-00-58.jpg);
+  background-size: 80% 100%;
+  padding: 10%;
+  width: 100%;
+  margin-top: 1%;
+  z-index: -1;
+}
+body .div__first {
+  width: 30%;
+  margin: -5% auto;
+  border: 1px solid whitesmoke;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px black;
+}
+body .div__first h1 {
+  color: #01012f;
+}
+body .div__first .div__two {
+  width: 40%;
+  margin: 5% auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #007bff;
+  border-radius: 15px;
+}
+body .big__div {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin-top: 10%;
+}
+body .big__div .big_one_div {
+  width: 70%;
+}
+body .big__div .big_two_div {
+  width: 35%;
+}
+body .big__div .big_two_div .div__smoll__1 {
+  width: 100%;
+  border: 1px solid white;
+  background-color: #e9fed7;
+  padding: 6%;
+}
+body .big__div .big_two_div .div__smoll__1 .diz__big__div {
+  display: flex;
+}
+body .big__div .big_two_div .div__smoll__1 .diz__big__div .div__two {
+  width: 10%;
+  background-color: #007bff;
+  color: #007bff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+}
+body .big__div .big_two_div .div__smoll__1 .diz__big__div h2 {
+  margin-left: 2%;
+}
+body .big__div .big_two_div .div__smoll__1 h5 {
+  color: #393939;
+}
+body .big__div .big_two_div .div__smoll__2 {
+  width: 100%;
+  border: 1px solid white;
+  background-color: #e9fed7;
+  padding: 6%;
+}
+body .big__div .big_two_div .div__smoll__3 {
+  width: 100%;
+  border: 1px solid white;
+  background-color: #e9fed7;
+  padding: 6%;
+  margin-top: 5%;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div {
+  display: flex;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div .div__two {
+  width: 10%;
+  background-color: #007bff;
+  color: #007bff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div h2 {
+  margin-left: 2%;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div__1 {
+  width: 79%;
+  margin: 5% auto;
+  border-radius: 30px;
+  background-color: #01012f;
+  color: white;
+  display: flex;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div__1 h3 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div__1 .div_diz {
+  width: 15%;
+  background-color: #007bff;
+  border-radius: 30px;
+  padding: 5%;
+  margin-left: inherit;
+}
+body .body_img {
+  width: 100%;
+  position: relative;
+}
+body .body_img img {
+  width: 100%;
+  height: 40vh;
+}
+body .yangiliklar {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+body .yangiliklar .yangiliklar_content {
+  width: 23%;
+  height: 25vh;
+  margin: auto;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 2px rgb(194, 194, 194), -2px -2px 2px rgb(194, 194, 194);
+  text-align: center;
+  padding-top: 3%;
+}
+body .yangiliklar .yangiliklar_content .chiziq_kok {
+  height: 4px;
+  width: 40%;
+  background: #007bff;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 2%;
+}
+body .yangiliklar .yangiliklar_content b:nth-child(1) {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+body .yangiliklar .yangiliklar_content .glavniy {
+  width: 100%;
+  margin-top: 4%;
+}
+body .yangiliklar .yangiliklar_content .glavniy a {
+  text-decoration: none;
+  color: #01012f;
+  font-family: sans-serif;
+  padding-top: 10%;
+}
+body .yangiliklar .yangiliklar_content .glavniy a:hover {
+  color: #007bff;
+}
+body .block {
+  width: 90%;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+}
+body .block .contents {
+  width: 65%;
+}
+body .block .contents .content_img {
+  width: 100%;
+  display: flex;
+}
+body .block .contents .content_img .img {
+  width: 46%;
+  margin: 2%;
+  border-radius: 50px;
+}
+body .block .contents .content_img .img img {
+  width: 100%;
+  border-radius: 50px;
+}
+body .block .contents .admin {
+  width: 100%;
+  display: flex;
+  margin-top: 2%;
+}
+body .block .contents .admin .admin_text {
+  display: flex;
+  margin: auto;
+  gap: 10px;
+}
+body .block .contents .admin .admin_text .doira {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  padding-top: 0.8%;
+  text-align: center;
+  font-size: 30px;
+  overflow: hidden;
+  background: rgb(208, 206, 206);
+}
+body .block .contents .admin .admin_text .doira i {
+  color: white;
+}
+body .block .contents .admin .admin_text b {
+  font-size: 17px;
+  padding-top: 4%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: sans-serif;
+}
+body .block .contents .admin .admin_text b a {
+  text-decoration: none;
+  color: black;
+}
+body .block .contents .admin .admin_text b a:hover {
+  color: #007bff;
+}
+body .block .contents .maktab_tadbirlari {
+  margin-top: 2%;
+  width: 100%;
+  text-align: center;
+}
+body .block .contents .maktab_tadbirlari i {
+  color: #007bff;
+  padding-right: 1%;
+}
+body .block .contents .maktab_tadbirlari b {
+  font-size: 17px;
+  padding-top: 4%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body .block .contents .maktab_tadbirlari b a {
+  text-decoration: none;
+  color: black;
+}
+body .block .contents .maktab_tadbirlari b a:hover {
+  color: #007bff;
+}
+body .block .contents .contents_2 {
+  margin-top: 2%;
+  width: 100%;
+}
+body .block .contents .contents_2 .osimlik_xilmaxil {
+  width: 100%;
+  display: flex;
+}
+body .block .contents .contents_2 .osimlik_xilmaxil .oqituvchi_img {
+  width: 46%;
+  border-radius: 50px;
+  margin: 2%;
+}
+body .block .contents .contents_2 .osimlik_xilmaxil .oqituvchi_img img {
+  width: 100%;
+  border-radius: 50px;
+}
+body .block .contents .contents_2 .osimlik_xilmaxil2 {
+  width: 100%;
+  display: flex;
+}
+body .block .contents .contents_2 .osimlik_xilmaxil2 .oqituvchi_img2 {
+  width: 46%;
+  border-radius: 50px;
+  margin: 2%;
+}
+body .block .contents .contents_2 .osimlik_xilmaxil2 .oqituvchi_img2 img {
+  width: 100%;
+  border-radius: 30px;
+}
+body .block .songi_yangiliklar {
+  width: 32%;
+  margin-left: 1.5%;
+}
+body .block .songi_yangiliklar .div__smoll__3 {
+  width: 100%;
+  padding: 6%;
+  margin-top: 5%;
+  background: rgb(239, 249, 249);
+}
+body .block .songi_yangiliklar .div__smoll__3 .diz__big__div {
+  display: flex;
+}
+body .block .songi_yangiliklar .div__smoll__3 .diz__big__div .div__two {
+  width: 10%;
+  background-color: #007bff;
+  color: #007bff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+}
+body .block .songi_yangiliklar .div__smoll__3 .diz__big__div h2 {
+  margin-left: 2%;
+}
+body .block .songi_yangiliklar .div__smoll__3 .diz__big__div__1 {
+  width: 79%;
+  margin: 5% auto;
+  border-radius: 30px;
+  background-color: #01012f;
+  color: white;
+  display: flex;
+}
+body .block .songi_yangiliklar .div__smoll__3 .diz__big__div__1 h3 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+}
+body .block .songi_yangiliklar .div__smoll__3 .diz__big__div__1 .div_diz {
+  width: 15%;
+  background-color: #007bff;
+  border-radius: 30px;
+  padding: 5%;
+  margin-left: inherit;
+}
+body .block .songi_yangiliklar .yangiliklar_text {
+  width: 100%;
+  text-align: center;
+  background: rgb(239, 249, 249);
+}
+body .block .songi_yangiliklar .yangiliklar_text .chiziq_text {
+  width: 100%;
+  padding-top: 3% !important;
+}
+body .block .songi_yangiliklar .yangiliklar_text .chiziq_text b {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+body .block .songi_yangiliklar .yangiliklar_text p {
+  padding: 2%;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+body .block .songi_yangiliklar .yangiliklar_text p a {
+  text-decoration: none;
+  color: black;
+}
+body .block .songi_yangiliklar .yangiliklar_text p a:hover {
+  color: #007bff;
+}
+body footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 1%;
+}
+body footer .footer_div {
+  display: flex;
+  width: 85%;
+  margin-top: 2%;
+}
+body footer .footer_div .maktab_navigatsiya {
+  width: 50%;
+  display: flex;
+}
+body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+  width: 50%;
+}
+body footer .footer_div .maktab_navigatsiya .maktab_haqida b {
+  font-size: 20px;
+}
+body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+  width: 93%;
+  padding: 3%;
+  font-size: 18px;
+}
+body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(105, 103, 103);
+}
+body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+  width: 30%;
+  height: 2px;
+  background-color: white;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya {
+  width: 50%;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya b {
+  font-size: 20px;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+  width: 90%;
+  border-bottom: 1px solid gray;
+  display: flex;
+  height: 40px;
+  padding-top: 3%;
+  font-size: 18px;
+  margin-top: 2%;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  transition: 0.6s ease;
+  margin-top: 1%;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+  transform: translate(47%);
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+  color: black;
+  left: 30%;
+  top: 10%;
+  position: absolute;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+  padding-left: 4%;
+  cursor: pointer;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(105, 103, 103);
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+  width: 30%;
+  height: 2px;
+  background-color: white;
+}
+body footer .footer_div .bizBilan_xarita {
+  width: 50%;
+  display: flex;
+}
+body footer .footer_div .bizBilan_xarita .boglaning {
+  width: 50%;
+}
+body footer .footer_div .bizBilan_xarita .boglaning b:nth-child(1) {
+  font-size: 20px;
+}
+body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+  width: 90%;
+  font-size: 18px;
+  margin-top: 4% !important;
+}
+body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+  padding-top: 100px !important;
+}
+body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(105, 103, 103);
+}
+body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+  width: 30%;
+  height: 2px;
+  background-color: white;
+}
+body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(105, 103, 103);
+}
+body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+  width: 30%;
+  height: 2px;
+  background-color: white;
+}
+body footer .footer_div .bizBilan_xarita .xarita {
+  width: 50%;
+}
+body footer .footer_div .bizBilan_xarita .xarita b {
+  font-size: 18px;
+}
+body footer .footer_div .bizBilan_xarita .xarita div iframe {
+  width: 100%;
+  height: 200px;
+  margin-top: 3%;
+}
+@media only screen and (max-width: 1300px) {
+  body .body_img {
+    width: 100%;
+    position: relative;
+  }
+  body .body_img img {
+    width: 100%;
+    height: 20vh !important;
+  }
+  body .yangiliklar {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+  }
+  body .yangiliklar .yangiliklar_content {
+    width: 23%;
+    height: 20vh;
+    margin: auto;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 2px 2px 2px rgb(194, 194, 194), -2px -2px 2px rgb(194, 194, 194);
+    text-align: center;
+    padding-top: 3%;
+  }
+  body .yangiliklar .yangiliklar_content .chiziq_kok {
+    height: 4px;
+    width: 40%;
+    background: #007bff;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2%;
+  }
+  body .yangiliklar .yangiliklar_content b:nth-child(1) {
+    font-size: 40px;
+    font-family: sans-serif;
+  }
+  body .yangiliklar .yangiliklar_content .glavniy {
+    width: 100%;
+    margin-top: 4%;
+  }
+  body .yangiliklar .yangiliklar_content .glavniy a {
+    text-decoration: none;
+    color: #01012f;
+    font-family: sans-serif;
+    padding-top: 10%;
+  }
+  body .yangiliklar .yangiliklar_content .glavniy a:hover {
+    color: #007bff;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 4%;
+  }
+  footer .footer_div {
+    display: flex;
+    width: 80%;
+    margin-top: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya {
+    width: 50%;
+    display: flex;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 50%;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 93%;
+    padding: 3%;
+    font-size: 14px;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 50%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 13px;
+    margin-top: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 30%;
+    top: 10%;
+    position: absolute;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    display: flex;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning {
+    width: 50%;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 4% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .body_img {
+    width: 100%;
+    position: relative;
+  }
+  .body_img img {
+    width: 100%;
+    height: 20vh !important;
+  }
+  .yangiliklar {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+  }
+  .yangiliklar .yangiliklar_content {
+    width: 25% !important;
+    height: 18vh;
+    margin: auto;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 2px 2px 2px rgb(194, 194, 194), -2px -2px 2px rgb(194, 194, 194);
+    text-align: center;
+    padding-top: 3%;
+  }
+  .yangiliklar .yangiliklar_content .chiziq_kok {
+    height: 4px;
+    width: 40%;
+    background: #007bff;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2%;
+  }
+  .yangiliklar .yangiliklar_content b:nth-child(1) {
+    font-size: 36px !important;
+    font-family: sans-serif;
+  }
+  .yangiliklar .yangiliklar_content .glavniy {
+    width: 100%;
+    margin-top: 4%;
+  }
+  .yangiliklar .yangiliklar_content .glavniy a {
+    text-decoration: none;
+    color: #01012f;
+    font-family: sans-serif;
+    padding-top: 10%;
+  }
+  .yangiliklar .yangiliklar_content .glavniy a:hover {
+    color: #007bff;
+  }
+  .big__div {
+    display: block;
+  }
+  .big__div .big_one_div {
+    width: 100%;
+  }
+  .big__div .big_two_div {
+    width: 100%;
+  }
+  .div__first {
+    width: 60%;
+  }
+  footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 4%;
+  }
+  footer .footer_div {
+    display: flex;
+    width: 90%;
+    margin-top: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya {
+    width: 50%;
+    display: flex;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 50%;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 93%;
+    padding: 3%;
+    font-size: 14px;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 50%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 13px;
+    margin-top: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 30%;
+    top: 10%;
+    position: absolute;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    display: flex;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning {
+    width: 50%;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 4% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .yangiliklar .yangiliklar_content {
+    width: 28% !important;
+    height: 17vh !important;
+  }
+  .yangiliklar .yangiliklar_content b:nth-child(1) {
+    font-size: 34px !important;
+  }
+  footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 4%;
+  }
+  footer .footer_div {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    padding-left: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya {
+    width: 50%;
+    display: flex;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 50%;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 93%;
+    padding: 3%;
+    font-size: 14px;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 50%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 13px;
+    margin-top: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 30%;
+    top: 10%;
+    position: absolute;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    display: flex;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning {
+    width: 50%;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 4% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .xarita {
+    width: 50%;
+  }
+  footer .footer_div .bizBilan_xarita .xarita div iframe {
+    width: 90% !important;
+    height: 200px;
+    margin-top: 3%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .block {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    flex-direction: column !important;
+  }
+  .block .contents {
+    width: 100% !important;
+  }
+  .songi_yangiliklar {
+    width: 50% !important;
+    margin: auto !important;
+  }
+  footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+  }
+  footer .footer_div {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya {
+    width: 50% !important;
+    flex-direction: column !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 70% !important;
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 100% !important;
+    font-size: 15px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 70% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 13px;
+    margin-top: 2%;
+    margin: auto;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 30%;
+    top: 10%;
+    position: absolute;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    flex-direction: column !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning {
+    width: 90% !important;
+    text-align: center !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 4% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .xarita {
+    width: 50%;
+  }
+  footer .footer_div .bizBilan_xarita .xarita div iframe {
+    width: 100% !important;
+    height: 200px;
+    margin-top: 3%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .body_img {
+    width: 100%;
+    position: relative;
+  }
+  .body_img img {
+    width: 100%;
+    height: 20vh !important;
+  }
+  .yangiliklar .yangiliklar_content {
+    width: 32% !important;
+    height: 16vh !important;
+  }
+  .yangiliklar .yangiliklar_content b:nth-child(1) {
+    font-size: 34px !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .block {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    flex-direction: column !important;
+  }
+  .block .contents {
+    width: 100% !important;
+  }
+  .songi_yangiliklar {
+    width: 60% !important;
+    margin: auto !important;
+  }
+  .xarita {
+    width: 80% !important;
+  }
+  .xarita div iframe {
+    width: 100% !important;
+    height: 200px;
+    margin-top: 3%;
+  }
+  .yangiliklar .yangiliklar_content {
+    width: 37% !important;
+    height: 15vh !important;
+  }
+  .yangiliklar .yangiliklar_content b:nth-child(1) {
+    font-size: 34px !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .yangiliklar .yangiliklar_content {
+    width: 39% !important;
+    height: 15vh !important;
+  }
+  .yangiliklar .yangiliklar_content b:nth-child(1) {
+    font-size: 32px !important;
+  }
+  footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 4%;
+  }
+  footer .footer_div {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya {
+    width: 50% !important;
+    flex-direction: column !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 70% !important;
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 100% !important;
+    font-size: 13px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 70% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya b {
+    font-size: 15px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 11px !important;
+    margin-top: 2%;
+    margin: auto;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 28% !important;
+    top: 12% !important;
+    position: absolute;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    flex-direction: column !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning {
+    width: 90% !important;
+    text-align: center !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning b {
+    font-size: 15px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 10px !important;
+    margin-top: 4% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30% !important;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    color: white;
+    margin-top: 4%;
+  }
+  footer .footer_div {
+    flex-direction: column !important;
+    width: 100%;
+    margin-top: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya {
+    width: 80% !important;
+    flex-direction: column !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 80% !important;
+    font-size: 15px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 100% !important;
+    font-size: 13px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 70% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya b {
+    font-size: 15px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 50px !important;
+    padding-top: 3%;
+    font-size: 11px !important;
+    margin-top: 2%;
+    margin: auto;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 28% !important;
+    top: 12% !important;
+    position: absolute;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita {
+    width: 100% !important;
+    flex-direction: column !important;
+    margin-top: 6% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning {
+    width: 60% !important;
+    text-align: center !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning b {
+    font-size: 15px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 10px !important;
+    margin-top: 4% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30% !important;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .block {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    flex-direction: column !important;
+  }
+  .block .contents {
+    width: 100% !important;
+  }
+  .songi_yangiliklar {
+    width: 70% !important;
+    margin: auto !important;
+  }
+  .yangiliklar .yangiliklar_content {
+    width: 43% !important;
+    height: 15vh !important;
+  }
+  .yangiliklar .yangiliklar_content b:nth-child(1) {
+    font-size: 30px !important;
+  }
+  footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    color: white;
+    margin-top: 4%;
+  }
+  footer .footer_div {
+    flex-direction: column !important;
+    width: 100%;
+    margin-top: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya {
+    width: 80% !important;
+    flex-direction: column !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 80% !important;
+    font-size: 15px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 100% !important;
+    font-size: 13px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 70% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya b {
+    font-size: 13px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 50px !important;
+    padding-top: 3%;
+    font-size: 11px !important;
+    margin-top: 2%;
+    margin: auto;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 28% !important;
+    top: 12% !important;
+    position: absolute;
+    font-size: 11px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita {
+    width: 100% !important;
+    flex-direction: column !important;
+    margin-top: 6% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning {
+    width: 60% !important;
+    text-align: center !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning b {
+    font-size: 15px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 10px !important;
+    margin-top: 4% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30% !important;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .block {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    flex-direction: column !important;
+  }
+  .block .contents {
+    width: 100% !important;
+  }
+  .songi_yangiliklar {
+    width: 80% !important;
+    margin: auto !important;
+  }
+  footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    color: white;
+    margin-top: 4%;
+  }
+  footer .footer_div {
+    flex-direction: column !important;
+    width: 100%;
+    margin-top: 2%;
+  }
+  footer .footer_div .maktab_navigatsiya {
+    width: 100% !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 100% !important;
+    font-size: 15px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 100% !important;
+    font-size: 13px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 100% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya b {
+    font-size: 14px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 50px !important;
+    padding-top: 3%;
+    font-size: 11px !important;
+    margin-top: 2%;
+    margin: auto;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 28% !important;
+    top: 12% !important;
+    position: absolute;
+    font-size: 11px !important;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto;
+  }
+  footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita {
+    width: 100% !important;
+    flex-direction: column !important;
+    margin-top: 6% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning b {
+    font-size: 15px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 10px !important;
+    margin-top: 4% !important;
+    padding-left: 10% !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30% !important;
+    height: 2px;
+    background-color: white;
+  }
+  footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .block {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    flex-direction: column !important;
+  }
+  .block .contents {
+    width: 100% !important;
+  }
+  .songi_yangiliklar {
+    width: 90% !important;
+    margin: auto !important;
+  }
+  .big__div {
+    display: block;
+  }
+  .big__div .big_one_div {
+    width: 100%;
+  }
+  .big__div .big_two_div {
+    width: 100%;
+  }
+  .big__div .big_two_div .div__smoll__1 h2 {
+    font-size: 20px;
+  }
+  .big__div .big_two_div .div__smoll__3 .diz__big__div__1 h3 {
+    font-size: 17px;
+  }
+  .div__first {
+    width: 70%;
+  }
+}
+.wrapper {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+#calendari {
+  position: relative;
+  overflow: hidden;
+  height: 310px;
+  width: 350px;
+  font-size: 14px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 350px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition: all 0.3s ease;
+}
+
+table.actiu {
+  transform: translateX(0px) top;
+}
+
+table.inactiu {
+  transition: all 0.3s 0.01s ease;
+}
+
+table.amagat-esquerra {
+  transform: translateX(-299px);
+}
+
+table.amagat-dreta {
+  transform: translateX(300px);
+}
+
+td,
+th {
+  text-align: center;
+  background-color: #fff;
+}
+
+th {
+  padding: 10px;
+}
+
+tr:first-child th {
+  font-size: 20px;
+  font-weight: bold;
+  border-left: none;
+  border-top: none;
+}
+
+td:last-child,
+th:last-child {
+  border-right: none;
+}
+
+th {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ace5f8;
+  color: #fff;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-weight: normal;
+}
+
+th .any {
+  font-size: 12px;
+  font-weight: normal;
+  display: block;
+  text-shadow: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+tr:nth-child(2) th {
+  padding: 5px;
+}
+
+td {
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+td > span {
+  color: #555;
+  padding: 10px;
+  display: block;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+}
+
+td:nth-child(even) > span {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+td:last-child > span,
+td:nth-child(6) > span {
+  color: #9b59b6;
+}
+
+td.avui > span {
+  font-weight: bold;
+  background-color: #ace5f8;
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+td.fora > span {
+  opacity: 0.2;
+}
+
+td > span:hover {
+  background-color: #ace5f8;
+  color: #fff;
+}
+
+.boto-next,
+.boto-prev {
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: inherit;
+  padding: 2px 10px 5px 10px;
+  line-height: 1px;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  border-radius: 100%;
+  position: absolute;
+  top: 15px;
+}
+
+.boto-next {
+  right: 10px;
+  padding-left: 13px;
+}
+
+.boto-prev {
+  left: 10px;
+  padding-right: 13px;
+}
+
+.boto-next:hover,
+.boto-prev:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+footer {
+  text-align: center;
+  color: #ddd;
+  font-weight: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-size: 0.8em;
+  padding: 20px;
+}
+
+footer a,
+footer a:link {
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=stylee.css.map */

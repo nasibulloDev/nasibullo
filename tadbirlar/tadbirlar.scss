@@ -1,0 +1,2532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    .img__one{
+        background-image: url(../photo_2022-11-03_15-00-58.jpg);
+        background-size: 80% 100%;
+        padding: 10%; 
+        width: 100%;
+        margin-top: 1%;
+        z-index: -1;
+    }
+    .div__first{
+        width: 30%;
+        margin: -5% auto;
+        border: 1px solid whitesmoke;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 1px 1px 5px 1px black;
+        h1{
+            color: #01012f;
+        }
+        .div__two{
+            width: 40%;
+            margin: 5% auto;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 4px solid #007bff;
+            border-radius: 15px;
+        }
+    }
+    .big__div{
+       width: 100%;
+       margin: auto;
+       display: flex;
+       margin-top: 10%;
+       .big_one_div{
+        width: 70%;
+       }
+       .big_two_div{
+        width: 35%;
+        .div__smoll__1{
+            width: 100%;
+            border: 1px solid white;
+            background-color: #e9fed7;
+            padding: 6%;
+            .diz__big__div{
+              display: flex;
+              .div__two{
+                width: 10%;
+                background-color:#007bff ;
+                color: #007bff;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                border-radius: 15px;
+            }
+            h2{
+                margin-left: 2%;
+            }
+            }
+            h5{
+                color: #393939;
+            }
+        }
+        .div__smoll__2{
+            width: 100%;
+            border: 1px solid white;
+            background-color: #e9fed7;
+            padding: 6%;
+        }    
+        .div__smoll__3{
+            width: 100%;
+            border: 1px solid white;
+            background-color: #e9fed7;
+            padding: 6%;
+            margin-top: 5%;
+            .diz__big__div{
+              display: flex;
+              .div__two{
+                width: 10%;
+                background-color:#007bff ;
+                color: #007bff;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                border-radius: 15px;
+
+            }
+            h2{
+                margin-left: 2%;
+            }
+            }
+            .diz__big__div__1{
+                width: 79%;
+                margin: 5% auto;
+                border-radius: 30px;
+                background-color: #01012f;
+                color: white;
+                display: flex;
+                h3{
+                    margin-top: 2%;
+                    margin-bottom: 2%;
+                    margin-left: 10%;
+                }
+                .div_diz{
+                    width: 15%;
+                    background-color: #007bff;
+                    border-radius: 30px;
+                    padding: 5%;
+                    margin-left:inherit;
+                }
+              }            
+        }
+       }
+    }
+
+
+    
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+    
+        .footer_div {
+          display: flex;
+          width: 85%;
+          margin-top: 2%;
+    
+          .maktab_navigatsiya {
+            width: 50%;
+            display: flex;
+    
+            .maktab_haqida {
+              width: 50%;
+    
+              .text {
+                width: 93%;
+                padding: 3%;
+                font-size: 14px;
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+    
+            .navigatsiya {
+              width: 50%;
+    
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 13px;
+                margin-top: 2%;
+    
+                div {
+                  width: 17px;
+                  height: 17px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+    
+                  &:hover {
+                    transform: translate(47%);
+                  }
+    
+                  i {
+                    color: black;
+                    left: 30%;
+                    top: 10%;
+                    position: absolute;
+                  }
+                }
+    
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+    
+          .bizBilan_xarita {
+            width: 50%;
+            display: flex;
+    
+            .boglaning {
+              width: 50%;
+    
+              .manzil {
+                width: 90%;
+                font-size: 13px;
+                margin-top: 4% !important;
+    
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+              
+            }
+              .xarita{
+                width: 50%;
+                div{
+                  iframe{
+                    width:100%;
+                    height: 200px;
+                    margin-top: 3%;
+                  }
+                }
+              }
+          }
+    
+        }
+    
+      }
+ @media only screen and (max-width: 998px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+    
+        .footer_div {
+          display: flex;
+          width: 70%;
+          margin-top: 2%;
+    
+          .maktab_navigatsiya {
+            width: 50%;
+            display: flex;
+    
+            .maktab_haqida {
+              width: 50%;
+    
+              .text {
+                width: 93%;
+                padding: 3%;
+                font-size: 14px;
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+    
+            .navigatsiya {
+              width: 50%;
+    
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 13px;
+                margin-top: 2%;
+    
+                div {
+                  width: 17px;
+                  height: 17px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+    
+                  &:hover {
+                    transform: translate(47%);
+                  }
+    
+                  i {
+                    color: black;
+                    left: 30%;
+                    top: 10%;
+                    position: absolute;
+                  }
+                }
+    
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+    
+          .bizBilan_xarita {
+            width: 50%;
+            display: flex;
+    
+            .boglaning {
+              width: 50%;
+    
+              .manzil {
+                width: 90%;
+                font-size: 13px;
+                margin-top: 4% !important;
+    
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .xarita {
+                width: 50%;
+              }
+            }
+          }
+    
+        }
+    
+      }
+      }    
+      @media only screen and (max-width: 1100px){
+        footer {
+            width: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-top: 4%;
+        
+            .footer_div {
+              display: flex;
+              width: 80%;
+              margin-top: 2%;
+        
+              .maktab_navigatsiya {
+                width: 50%;
+                display: flex;
+        
+                .maktab_haqida {
+                  width: 50%;
+        
+                  .text {
+                    width: 93%;
+                    padding: 3%;
+                    font-size: 14px;
+                  }
+        
+                  .chiziq {
+                    width: 90%;
+                    height: 2px;
+                    background-color: rgb(105, 103, 103);
+        
+                    div {
+                      width: 30%;
+                      height: 2px;
+                      background-color: white;
+                    }
+                  }
+                }
+        
+                .navigatsiya {
+                  width: 50%;
+        
+                  .asosiy {
+                    width: 90%;
+                    border-bottom: 1px solid gray;
+                    display: flex;
+                    height: 40px;
+                    padding-top: 3%;
+                    font-size: 13px;
+                    margin-top: 2%;
+        
+                    div {
+                      width: 17px;
+                      height: 17px;
+                      border-radius: 50%;
+                      background-color: white;
+                      position: relative;
+                      transition: 0.6s ease;
+                      margin-top: 1%;
+        
+                      &:hover {
+                        transform: translate(47%);
+                      }
+        
+                      i {
+                        color: black;
+                        left: 30%;
+                        top: 10%;
+                        position: absolute;
+                      }
+                    }
+        
+                    b {
+                      padding-left: 4%;
+                      cursor: pointer;
+                    }
+                  }
+        
+                  .chiziq {
+                    width: 90%;
+                    height: 2px;
+                    background-color: rgb(105, 103, 103);
+        
+                    div {
+                      width: 30%;
+                      height: 2px;
+                      background-color: white;
+                    }
+                  }
+                }
+              }
+        
+              .bizBilan_xarita {
+                width: 50%;
+                display: flex;
+        
+                .boglaning {
+                  width: 50%;
+        
+                  .manzil {
+                    width: 90%;
+                    font-size: 13px;
+                    margin-top: 4% !important;
+        
+                    b {
+                      padding-top: 100px !important;
+                    }
+                  }
+        
+                  .chiziq {
+                    width: 90%;
+                    height: 2px;
+                    background-color: rgb(105, 103, 103);
+        
+                    div {
+                      width: 30%;
+                      height: 2px;
+                      background-color: white;
+                    }
+                  }
+        
+                  .chiziq {
+                    width: 90%;
+                    height: 2px;
+                    background-color: rgb(105, 103, 103);
+        
+                    div {
+                      width: 30%;
+                      height: 2px;
+                      background-color: white;
+                    }
+                  }
+        
+                  .xarita {
+                    width: 50%;
+                  }
+                }
+              }
+        
+            }
+        
+          }
+      }
+@media only screen and (max-width: 998px) {
+      .big__div{
+        display: block;
+        .big_one_div{
+            width: 100%;
+        }
+        .big_two_div{
+            width: 100%;
+        }
+      }
+      .div__first{
+        width: 60%;
+      }
+      footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+    
+        .footer_div {
+          display: flex;
+          width: 90%;
+          margin-top: 2%;
+    
+          .maktab_navigatsiya {
+            width: 50%;
+            display: flex;
+    
+            .maktab_haqida {
+              width: 50%;
+    
+              .text {
+                width: 93%;
+                padding: 3%;
+                font-size: 14px;
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+    
+            .navigatsiya {
+              width: 50%;
+    
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 13px;
+                margin-top: 2%;
+    
+                div {
+                  width: 17px;
+                  height: 17px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+    
+                  &:hover {
+                    transform: translate(47%);
+                  }
+    
+                  i {
+                    color: black;
+                    left: 30%;
+                    top: 10%;
+                    position: absolute;
+                  }
+                }
+    
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+    
+          .bizBilan_xarita {
+            width: 50%;
+            display: flex;
+    
+            .boglaning {
+              width: 50%;
+    
+              .manzil {
+                width: 90%;
+                font-size: 13px;
+                margin-top: 4% !important;
+    
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .xarita {
+                width: 50%;
+              }
+            }
+          }
+    
+        }
+    
+      }
+  }
+  @media only screen and (max-width: 900px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+    
+        .footer_div {
+          display: flex;
+          width: 100%;
+          margin-top: 2%;
+          padding-left: 2%;
+    
+          .maktab_navigatsiya {
+            width: 50%;
+            display: flex;
+    
+            .maktab_haqida {
+              width: 50%;
+    
+              .text {
+                width: 93%;
+                padding: 3%;
+                font-size: 14px;
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+    
+            .navigatsiya {
+              width: 50%;
+    
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 13px;
+                margin-top: 2%;
+    
+                div {
+                  width: 17px;
+                  height: 17px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+    
+                  &:hover {
+                    transform: translate(47%);
+                  }
+    
+                  i {
+                    color: black;
+                    left: 30%;
+                    top: 10%;
+                    position: absolute;
+                  }
+                }
+    
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+    
+          .bizBilan_xarita {
+            width: 50%;
+            display: flex;
+    
+            .boglaning {
+              width: 50%;
+    
+              .manzil {
+                width: 90%;
+                font-size: 13px;
+                margin-top: 4% !important;
+    
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+    
+            }
+    
+            .xarita {
+              width: 50%;
+    
+              div {
+                iframe {
+                  width: 90% !important;
+                  height: 200px;
+                  margin-top: 3%;
+                }
+              }
+            }
+          }
+    
+    
+        }
+    
+      }
+  }
+  @media only screen and (max-width: 800px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+  
+        .footer_div {
+          display: flex;
+          width: 100%;
+          margin-top: 2%;
+  
+          .maktab_navigatsiya {
+            width: 50% !important;
+            flex-direction: column !important;
+  
+            .maktab_haqida {
+              width: 70% !important;
+              font-size: 16px !important;
+              text-align: center !important;
+  
+              .text {
+                width: 100% !important;
+                font-size: 15px !important;
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+  
+            .navigatsiya {
+              width: 70% !important;
+              margin-top: 4% !important;
+              text-align: center !important;
+  
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 13px;
+                margin-top: 2%;
+                margin: auto;
+  
+                div {
+                  width: 17px;
+                  height: 17px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+  
+                  &:hover {
+                    transform: translate(47%);
+                  }
+  
+                  i {
+                    color: black;
+                    left: 30%;
+                    top: 10%;
+                    position: absolute;
+                  }
+                }
+  
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+  
+          .bizBilan_xarita {
+            width: 50%;
+            // display: flex;
+            flex-direction: column !important;
+  
+            .boglaning {
+              width: 90% !important;
+              text-align: center !important;
+  
+              .manzil {
+                width: 90%;
+                font-size: 13px;
+                margin-top: 4% !important;
+  
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+  
+  
+  
+  
+            }
+  
+            .xarita {
+              width: 50%;
+  
+              div {
+                iframe {
+                  width: 100% !important;
+                  height: 200px;
+                  margin-top: 3%;
+                }
+              }
+            }
+          }
+  
+        }
+  
+      }
+  }
+  @media only screen and(max-width:650px){
+    .xarita {
+        width: 80% !important;
+  
+        div {
+          iframe {
+            width: 100% !important;
+            height: 200px;
+            margin-top: 3%;
+          }
+        }
+      }
+  }
+  @media only screen and (max-width: 550px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+  
+        .footer_div {
+          display: flex;
+          width: 100%;
+          margin-top: 2%;
+  
+          .maktab_navigatsiya {
+            width: 50% !important;
+            flex-direction: column !important;
+  
+            .maktab_haqida {
+              width: 70% !important;
+              font-size: 15px !important;
+              text-align: center !important;
+  
+              .text {
+                width: 100% !important;
+                font-size: 13px !important;
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+  
+            .navigatsiya {
+              width: 70% !important;
+              margin-top: 4% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 11px !important;
+                margin-top: 2%;
+                margin: auto;
+  
+                div {
+                  width: 13px;
+                  height: 13px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+  
+                  &:hover {
+                    transform: translate(47%);
+                  }
+  
+                  i {
+                    color: black;
+                    left: 28% !important;
+                    top: 12% !important;
+                    position: absolute;
+                  }
+                }
+  
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+  
+          .bizBilan_xarita {
+            width: 50%;
+            // display: flex;
+            flex-direction: column !important;
+  
+            .boglaning {
+              width: 90% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .manzil {
+                width: 90%;
+                font-size: 10px !important;
+                margin-top: 4% !important;
+  
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30% !important;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+  
+  
+  
+              .xarita {
+                width: 90% !important;
+  
+              }
+            }
+          }
+  
+        }
+  
+      }
+  }
+  @media only screen and (max-width: 500px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+        color: white;
+        margin-top: 4%;
+  
+        .footer_div {
+          // display: flex;
+          flex-direction: column !important;
+          width: 100%;
+          margin-top: 2%;
+  
+          .maktab_navigatsiya {
+            width: 80% !important;
+            flex-direction: column !important;
+  
+            .maktab_haqida {
+              width: 80% !important;
+              font-size: 15px !important;
+              // text-align: center !important;
+  
+              .text {
+                width: 100% !important;
+                font-size: 13px !important;
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+  
+            .navigatsiya {
+              width: 70% !important;
+              margin-top: 4% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 50px !important;
+                padding-top: 3%;
+                font-size: 11px !important;
+                margin-top: 2%;
+                margin: auto;
+  
+                div {
+                  width: 13px;
+                  height: 13px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+  
+                  &:hover {
+                    transform: translate(47%);
+                  }
+  
+                  i {
+                    color: black;
+                    left: 28% !important;
+                    top: 12% !important;
+                    position: absolute;
+                  }
+                }
+  
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+  
+          .bizBilan_xarita {
+            width: 100% !important;
+            // display: flex;
+            flex-direction: column !important;
+            margin-top: 6% !important;
+  
+            .boglaning {
+              width: 60% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .manzil {
+                width: 90%;
+                font-size: 10px !important;
+                margin-top: 4% !important;
+  
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30% !important;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+  
+  
+  
+              .xarita {
+                width: 90% !important;
+  
+              }
+            }
+          }
+  
+        }
+  
+      }
+  }
+  @media only screen and (max-width: 450px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+        color: white;
+        margin-top: 4%;
+  
+        .footer_div {
+          // display: flex;
+          flex-direction: column !important;
+          width: 100%;
+          margin-top: 2%;
+  
+          .maktab_navigatsiya {
+            width: 80% !important;
+            flex-direction: column !important;
+  
+            .maktab_haqida {
+              width: 80% !important;
+              font-size: 15px !important;
+              // text-align: center !important;
+  
+              .text {
+                width: 100% !important;
+                font-size: 13px !important;
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+  
+            .navigatsiya {
+              width: 70% !important;
+              margin-top: 4% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 13px !important;
+              }
+  
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 50px !important;
+                padding-top: 3%;
+                font-size: 11px !important;
+                margin-top: 2%;
+                margin: auto;
+  
+                div {
+                  width: 13px;
+                  height: 13px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+  
+                  &:hover {
+                    transform: translate(47%);
+                  }
+  
+                  i {
+                    color: black;
+                    left: 28% !important;
+                    top: 12% !important;
+                    position: absolute;
+                    font-size: 11px !important;
+                  }
+                }
+  
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+  
+          .bizBilan_xarita {
+            width: 100% !important;
+            // display: flex;
+            flex-direction: column !important;
+            margin-top: 6% !important;
+  
+            .boglaning {
+              width: 60% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .manzil {
+                width: 90%;
+                font-size: 10px !important;
+                margin-top: 4% !important;
+  
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30% !important;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+  
+  
+  
+              .xarita {
+                width: 90% !important;
+  
+              }
+            }
+          }
+  
+        }
+  
+      }
+  }
+  @media only screen and (max-width:400px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+        color: white;
+        margin-top: 4%;
+  
+        .footer_div {
+          // display: flex;
+          flex-direction: column !important;
+          width: 100%;
+          margin-top: 2%;
+  
+          .maktab_navigatsiya {
+            width: 100% !important;
+            flex-direction: column !important;
+            text-align: center !important;
+  
+            .maktab_haqida {
+              width: 100% !important;
+              font-size: 15px !important;
+              // text-align: center !important;
+  
+              .text {
+                width: 100% !important;
+                font-size: 13px !important;
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+  
+            .navigatsiya {
+              width: 100% !important;
+              margin-top: 4% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 14px !important;
+              }
+  
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 50px !important;
+                padding-top: 3%;
+                font-size: 11px !important;
+                margin-top: 2%;
+                margin: auto;
+  
+                div {
+                  width: 13px;
+                  height: 13px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+  
+                  &:hover {
+                    transform: translate(47%);
+                  }
+  
+                  i {
+                    color: black;
+                    left: 28% !important;
+                    top: 12% !important;
+                    position: absolute;
+                    font-size: 11px !important;
+                  }
+                }
+  
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+  
+          .bizBilan_xarita {
+            width: 100% !important;
+            // display: flex;
+            flex-direction: column !important;
+            margin-top: 6% !important;
+  
+            .boglaning {
+              width: 100% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .manzil {
+                width: 90%;
+                font-size: 10px !important;
+                margin-top: 4% !important;
+                padding-left: 10% !important;
+  
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30% !important;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+  
+  
+  
+              .xarita {
+                width: 90% !important;
+  
+              }
+            }
+          }
+  
+        }
+  
+      }
+  }
+@media only screen and (max-width: 330px) {
+    .big__div{
+      display: block;
+      .big_one_div{
+          width: 100%;
+      }
+      .big_two_div{
+          width: 100%;
+        .div__smoll__1{
+            h2{
+             font-size: 20px;
+          }     
+          }
+        .div__smoll__3{
+          .diz__big__div__1{
+           h3{
+            font-size: 17px;
+            }
+            }
+
+        }  
+
+      }
+    }
+    .div__first{
+      width: 70%;
+    }
+}
+
+
+
+
+.wrapper {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+button::-moz-focus-inner { 
+  border: 0;
+  padding: 0;
+}
+
+#calendari {
+    position: relative;
+    overflow: hidden;
+    height: 310px;
+    width: 350px;
+    font-size: 14px;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.4);
+
+}
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 350px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(0);
+    transition: all 0.3s ease;
+}
+table.actiu {
+    transform: translateX(0px)top;
+}
+table.inactiu {
+    transition: all 0.3s 0.01s ease;
+}
+table.amagat-esquerra {
+    transform: translateX(-299px);
+}
+table.amagat-dreta {
+    transform: translateX(300px);
+}
+td,th {
+    text-align: center;
+    background-color: #fff;
+}
+th {
+    padding: 10px;
+}
+tr:first-child th {
+    font-size: 20px;
+    font-weight: bold;
+    border-left: none;
+    border-top: none;
+}
+td:last-child, th:last-child {
+  border-right: none;
+}
+
+th {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    background-color: #ace5f8;
+    color: #fff;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+    font-weight: normal;
+}
+th .any {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    text-shadow: none;
+    color: rgba(0,0,0,0.4);
+}
+tr:nth-child(2) th {
+    padding: 5px;
+}
+td {
+    padding: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+td>span {
+    color: #555;
+    padding: 10px;
+    display: block;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+td:nth-child(even)>span {
+    background-color: rgba(0,0,0,0.02);
+}
+td:last-child>span,
+td:nth-child(6)>span {
+    color: #9b59b6;
+}
+td.avui>span {
+    font-weight: bold;
+    background-color: #ace5f8;
+    color: #fff;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+td.fora > span {
+    opacity: 0.2;
+}
+td > span:hover {
+    background-color: #ace5f8;
+    color: #fff;
+}
+.boto-next, .boto-prev {
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    font-family: inherit;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: inherit;
+    padding: 2px 10px 5px 10px;
+    line-height: 1px;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    top: 15px;
+}
+.boto-next { right: 10px; padding-left: 13px; }
+.boto-prev { left: 10px; padding-right: 13px;}
+.boto-next:hover,
+.boto-prev:hover {
+    background: rgba(0,0,0,0.2);
+}
+button:hover { cursor: pointer; }
+button:focus { outline: none; }
+
+footer {
+  text-align: center;
+  color: #ddd;
+  font-weight: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-size: 0.8em;
+  padding: 20px;
+}
+
+footer a,
+footer a:link {
+  color: #fff;
+  text-decoration: none;
+}
+//tohir
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #807a7a;
+  margin: 0;
+  background: #fff;
+}
+a {
+  color: #5d5d5d;
+  text-decoration: none;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  cursor: pointer;
+  display: inline-block;
+}
+.ed-button{
+  margin-top: -20%;
+  margin: auto;
+  color: #5d5d5d;
+  background-color: #FFF;
+  margin-left: -5%;
+}
+.secondary-button{
+  color: #5d5d5d;
+  margin-top: 15%;
+  margin-left: -40%;
+ 
+}
+.ed-news-ticker {
+  display: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+section {
+  padding: 60px 0;
+}
+h2.section-header {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 34px;
+  position: relative;
+  color: #333;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+h2.section-header:after {
+  content: '';
+  position: absolute;
+}
+h2.section-header:before {
+  background: #333;
+  width: 10px;
+  height: 10px;
+  bottom: -10px;
+  left: 160px;
+}
+h2.section-header:after {
+  background: #004A8D;
+  width: 150px;
+  left: 0;
+  height: 1px;
+  bottom: -5px;
+}
+h2.section-header span {
+  display: inline-block;
+  margin-left: 5px;
+  margin-left: 10px;
+  color: #004A8D;
+}
+.ed-header.layout-2 {
+  text-align: center;
+  margin: 0 auto 40px;
+}
+.ed-header.layout-2 h2.section-header:before {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 99;
+  border: 5px solid #fff;
+  bottom: -15px;
+}
+.ed-header.layout-2 h2.section-header:after {
+  right: 0;
+  margin: 0 auto;
+}
+.ed-services.layout-2 {
+  padding-bottom: 0;
+  background-color:#fff;
+}
+.educenter_counter_wrap h2.section-header{
+  color: #fff;
+}
+.ed-cta.layout-1 {
+  text-align: center;
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ed-cta.layout-1 .ed-cta-holder {
+  color: #fff;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.ed-cta.layout-1 .ed-cta-holder h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.ed-cta.layout-1 .ed-cta-holder p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 1.5em;
+}
+.ed-cta.layout-1 .ed-cta-holder a.ed-button {
+  color: #ffffff;
+  border-color: #004A8D;
+  padding: 10px 25px;
+  margin-top: 40px;
+  font-size: 16px;
+}
+.ed-cta.layout-1 .ed-cta-holder a.ed-button.secondary-button{
+  background-color: #fff;
+  margin-left: 15px;
+  color: #77815c;
+}   
+section.ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-item-wrapper img {
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  width: 100%;
+}
+.ed-gallery-inner{
+  background-color: #004A8D;
+}
+.educenter_counter_wrap{
+  padding: 60px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  background-attachment: fixed;
+  position: relative;
+  background-position: 50% 0;
+}
+.educenter_counter_wrap:before {
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  height: 100%;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.educenter_counter_wrap .ed-header.layout-2 p{
+  color: #fff;
+  position: relative;
+}
+.educenter_counter_wrap .ed-col {
+  display: inline-block;
+  padding:0 10px;
+  width: calc((100% - 15px ) / 4);
+  width: -webkit-calc((100% - 25px ) / 4);
+}
+.educenter_counter{
+  text-align: center;
+  border: 2px solid #004a8d;
+  border-top: 0;
+  padding: 0 20px 20px;
+  position: relative;
+  margin-top: 50px;
+  border-radius: 0 0 45px;
+}
+.educenter_counter:after{
+  content: "";
+  position: absolute;
+  width: 30%;
+  left: 0;
+  top: 0;
+  height: 2px;
+  background: #004a8d;
+}
+.educenter_counter:before{
+  content: "";
+  position: absolute;
+  width: 30%;
+  right: 0;
+  top: 0;
+  height: 2px;
+  background: #004a8d;
+}
+.educenter_counter-count{
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+.educenter_counter-icon{
+  display: inline-block;
+  font-size: 45px;
+  color: #fff;
+  position: relative;
+  -ms-transform: translate(0, -17px);
+  -webkit-transform: translate(0, -17px);
+  transform: translate(0, -17px);
+   line-height: 36px; 
+}
+.educenter_counter-title{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+}
+/* gallery */
+section.ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-item-wrapper img {
+  border-radius: 80px 0;
+}
+.ed-inner-page .ed-courses.layout-2 {
+  background: transparent;
+}
+.ed-gallery-wrapper.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.ed-gallery-wrapper.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.ed-gallery-wrapper.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.ed-gallery-wrapper.grid-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.ed-btn-wrap{
+  width: 100%;
+}
+.ed-gallery .ed-gallery-wrapper .ed-gallery-item {
+  border-radius: 50px 0 50px 0;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  padding: 15px 15px 15px 15px;
+}
+.ed-gallery .ed-gallery-wrapper .ed-gallery-item.no-gap{
+  padding: 0;
+  border-radius: 50px 0 50px 0;
+
+}
+.ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-item-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-button {
+  position: absolute;
+  text-align: right;
+  bottom: 0;
+  right: 0;
+  z-index: 33;
+  background: #004A8D;
+  opacity: 0;
+  padding: 8px 10px 8px 15px;
+  border-radius: 30px 0 0 0;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.ed-gallery .ed-gallery-wrapper .ed-gallery-item:hover .ed-gallery-button {
+  opacity: 1;
+}
+.ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-button .ed-btn {
+  display: inline-block;
+  text-align: center;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #fff;
+  z-index: 99;
+}
+.caption::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.caption{
+  position: absolute;
+  display: flex;
+  top: 0;
+  background: #0091ffc9;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all .55s cubic-bezier(.645,.045,.355,1);
+  transition: all .55s cubic-bezier(.645,.045,.355,1);
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 80px 0 0 0;
+}
+.ed-gallery .ed-gallery-wrapper .ed-gallery-item:hover .caption{
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: all .55s cubic-bezier(.645,.045,.355,1);
+  transition: all .55s cubic-bezier(.645,.045,.355,1);
+}
+.ed-gallery-item:hover .caption::after {
+  transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,101%,0);
+  -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,101%,0);
+}
+.ed-gallery-item .caption::after {
+  background-color: rgba(255,255,255,.4);
+  -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-101%,0);
+  -webkit-transition: all .6s;
+}
+.ed-gallery-head{
+  background-color: #FFF;
+}
+/* btn /// /////// */
+@keyframes bounce_two{
+  0%{transform:scale(1,1) translateY(0)}
+  10%{transform:scale(1.1,.9) translateY(0)}
+  30%{transform:scale(.9,1.1) translateY(-1.375rem)}
+  50%{transform:scale(1,1) translateY(0)}
+  57%{transform:scale(1,1) translateY(-0.1875rem)}
+  64%{transform:scale(1,1) translateY(0)}
+  100%{transform:scale(1,1) translateY(0)}
+}
+.ed-header .ed-badge {
+  padding: 2px 20px;
+  border-radius: 6.25rem;
+  line-height: 1.9375rem;
+  margin-bottom: 0.5rem; 
+  animation-name: bounce_two;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  position: relative;
+  color: white;
+  background-color: #004a8d;
+  z-index: 1;
+  display: inline-block;
+  font-size: 16px;
+}
+.ed-header .ed-badge::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0.6875rem;
+  height: 0.6875rem;
+  background-color: #004a8d;
+  -ms-transform: translateY(50%) rotate(45deg);
+  transform: translateY(50%) rotate(45deg);
+  z-index: -1;
+}
+
+@media (max-width: 860px) {
+  .ed-courses.layout-2 .ed-col-wrap .ed-col:nth-child(even) {
+      margin-right: 0;
+  }
+  [data-layout*="counter"] .ed-col {
+      width: 49%;
+  }
+  .ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-button {
+      opacity: 1;
+  }
+  .ed-gallery-wrapper.grid-4 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .ed-gallery-wrapper.grid-3,
+  .ed-gallery-wrapper.grid-4 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 640px) {
+ h2.section-header {
+      font-size: 30px;
+  }
+
+}
+@media (max-width: 480px) {
+  h2.section-header{
+      font-size: 20px;
+  }
+  h2.ed-text-holder{
+      font-size: 20px;
+  }
+}
+@media (max-width: 360px) {
+.ed-cta-holder h2.ed-text-holder{
+      font-size: 20px;
+  }
+  .ed-button{
+      width: 90%;
+  }
+  .secondary-button{
+      width: 80%;
+  }
+  h2.section-header{
+      font-size: 20px;
+  }
+ #ed-col1{
+  width: 100%;
+  margin-top: -5%;
+ }
+  .ed-gallery-wrapper.grid-4 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+//tohir
+
+@media only screen and (max-width: 998px) {
+      .big__div{
+        display: block;
+        .big_one_div{
+            width: 100%;
+        }
+        .big_two_div{
+            width: 100%;
+        }
+      }
+      .div__first{
+        width: 60%;
+      }
+  }
+@media only screen and (max-width: 330px) {
+    .big__div{
+      display: block;
+      .big_one_div{
+          width: 100%;
+      }
+      .big_two_div{
+          width: 100%;
+        .div__smoll__1{
+            h2{
+             font-size: 20px;
+          }     
+          }
+        .div__smoll__2{
+          display: none;
+        }
+        .div__smoll__3{
+          .diz__big__div__1{
+           h3{
+            font-size: 17px;
+            }
+            }
+
+        }  
+
+      }
+    }
+    .div__first{
+      width: 70%;
+    }
+}
+
+
+
+
+.wrapper {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+button::-moz-focus-inner { 
+  border: 0;
+  padding: 0;
+}
+
+#calendari {
+    position: relative;
+    overflow: hidden;
+    height: 310px;
+    width: 350px;
+    font-size: 14px;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.4);
+
+}
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 350px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(0);
+    transition: all 0.3s ease;
+}
+table.actiu {
+    transform: translateX(0px)top;
+}
+table.inactiu {
+    transition: all 0.3s 0.01s ease;
+}
+table.amagat-esquerra {
+    transform: translateX(-299px);
+}
+table.amagat-dreta {
+    transform: translateX(300px);
+}
+td,th {
+    text-align: center;
+    background-color: #fff;
+}
+th {
+    padding: 10px;
+}
+tr:first-child th {
+    font-size: 20px;
+    font-weight: bold;
+    border-left: none;
+    border-top: none;
+}
+td:last-child, th:last-child {
+  border-right: none;
+}
+
+th {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    background-color: #ace5f8;
+    color: #fff;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+    font-weight: normal;
+}
+th .any {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    text-shadow: none;
+    color: rgba(0,0,0,0.4);
+}
+tr:nth-child(2) th {
+    padding: 5px;
+}
+td {
+    padding: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+td>span {
+    color: #555;
+    padding: 10px;
+    display: block;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+td:nth-child(even)>span {
+    background-color: rgba(0,0,0,0.02);
+}
+td:last-child>span,
+td:nth-child(6)>span {
+    color: #9b59b6;
+}
+td.avui>span {
+    font-weight: bold;
+    background-color: #ace5f8;
+    color: #fff;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+td.fora > span {
+    opacity: 0.2;
+}
+td > span:hover {
+    background-color: #ace5f8;
+    color: #fff;
+}
+.boto-next, .boto-prev {
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    font-family: inherit;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: inherit;
+    padding: 2px 10px 5px 10px;
+    line-height: 1px;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    top: 15px;
+}
+.boto-next { right: 10px; padding-left: 13px; }
+.boto-prev { left: 10px; padding-right: 13px;}
+.boto-next:hover,
+.boto-prev:hover {
+    background: rgba(0,0,0,0.2);
+}
+button:hover { cursor: pointer; }
+button:focus { outline: none; }
+
+footer {
+  text-align: center;
+  color: #ddd;
+  font-weight: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-size: 0.8em;
+  padding: 20px;
+}
+
+footer a,
+footer a:link {
+  color: #fff;
+  text-decoration: none;
+}
+}

@@ -1,0 +1,2242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  /* gallery */
+  /* btn /// /////// */
+}
+body .img__one {
+  background-image: url(../photo_2022-11-03_15-00-58.jpg);
+  background-size: 80% 100%;
+  padding: 10%;
+  width: 100%;
+  margin-top: 1%;
+  z-index: -1;
+}
+body .div__first {
+  width: 30%;
+  margin: -5% auto;
+  border: 1px solid whitesmoke;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px black;
+}
+body .div__first h1 {
+  color: #01012f;
+}
+body .div__first .div__two {
+  width: 40%;
+  margin: 5% auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #007bff;
+  border-radius: 15px;
+}
+body .big__div {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin-top: 10%;
+}
+body .big__div .big_one_div {
+  width: 70%;
+}
+body .big__div .big_two_div {
+  width: 35%;
+}
+body .big__div .big_two_div .div__smoll__1 {
+  width: 100%;
+  border: 1px solid white;
+  background-color: #e9fed7;
+  padding: 6%;
+}
+body .big__div .big_two_div .div__smoll__1 .diz__big__div {
+  display: flex;
+}
+body .big__div .big_two_div .div__smoll__1 .diz__big__div .div__two {
+  width: 10%;
+  background-color: #007bff;
+  color: #007bff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+}
+body .big__div .big_two_div .div__smoll__1 .diz__big__div h2 {
+  margin-left: 2%;
+}
+body .big__div .big_two_div .div__smoll__1 h5 {
+  color: #393939;
+}
+body .big__div .big_two_div .div__smoll__2 {
+  width: 100%;
+  border: 1px solid white;
+  background-color: #e9fed7;
+  padding: 6%;
+}
+body .big__div .big_two_div .div__smoll__3 {
+  width: 100%;
+  border: 1px solid white;
+  background-color: #e9fed7;
+  padding: 6%;
+  margin-top: 5%;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div {
+  display: flex;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div .div__two {
+  width: 10%;
+  background-color: #007bff;
+  color: #007bff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div h2 {
+  margin-left: 2%;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div__1 {
+  width: 79%;
+  margin: 5% auto;
+  border-radius: 30px;
+  background-color: #01012f;
+  color: white;
+  display: flex;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div__1 h3 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+}
+body .big__div .big_two_div .div__smoll__3 .diz__big__div__1 .div_diz {
+  width: 15%;
+  background-color: #007bff;
+  border-radius: 30px;
+  padding: 5%;
+  margin-left: inherit;
+}
+body footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 4%;
+}
+body footer .footer_div {
+  display: flex;
+  width: 85%;
+  margin-top: 2%;
+}
+body footer .footer_div .maktab_navigatsiya {
+  width: 50%;
+  display: flex;
+}
+body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+  width: 50%;
+}
+body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+  width: 93%;
+  padding: 3%;
+  font-size: 14px;
+}
+body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(105, 103, 103);
+}
+body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+  width: 30%;
+  height: 2px;
+  background-color: white;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya {
+  width: 50%;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+  width: 90%;
+  border-bottom: 1px solid gray;
+  display: flex;
+  height: 40px;
+  padding-top: 3%;
+  font-size: 13px;
+  margin-top: 2%;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  transition: 0.6s ease;
+  margin-top: 1%;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+  transform: translate(47%);
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+  color: black;
+  left: 30%;
+  top: 10%;
+  position: absolute;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+  padding-left: 4%;
+  cursor: pointer;
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(105, 103, 103);
+}
+body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+  width: 30%;
+  height: 2px;
+  background-color: white;
+}
+body footer .footer_div .bizBilan_xarita {
+  width: 50%;
+  display: flex;
+}
+body footer .footer_div .bizBilan_xarita .boglaning {
+  width: 50%;
+}
+body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+  width: 90%;
+  font-size: 13px;
+  margin-top: 4% !important;
+}
+body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+  padding-top: 100px !important;
+}
+body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(105, 103, 103);
+}
+body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+  width: 30%;
+  height: 2px;
+  background-color: white;
+}
+body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(105, 103, 103);
+}
+body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+  width: 30%;
+  height: 2px;
+  background-color: white;
+}
+body footer .footer_div .bizBilan_xarita .xarita {
+  width: 50%;
+}
+body footer .footer_div .bizBilan_xarita .xarita div iframe {
+  width: 100%;
+  height: 200px;
+  margin-top: 3%;
+}
+@media only screen and (max-width: 998px) {
+  body footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 4%;
+  }
+  body footer .footer_div {
+    display: flex;
+    width: 70%;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya {
+    width: 50%;
+    display: flex;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 50%;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 93%;
+    padding: 3%;
+    font-size: 14px;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 50%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 13px;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 30%;
+    top: 10%;
+    position: absolute;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    display: flex;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning {
+    width: 50%;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 4% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  body footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 4%;
+  }
+  body footer .footer_div {
+    display: flex;
+    width: 80%;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya {
+    width: 50%;
+    display: flex;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 50%;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 93%;
+    padding: 3%;
+    font-size: 14px;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 50%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 13px;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 30%;
+    top: 10%;
+    position: absolute;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    display: flex;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning {
+    width: 50%;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 4% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 998px) {
+  body .big__div {
+    display: block;
+  }
+  body .big__div .big_one_div {
+    width: 100%;
+  }
+  body .big__div .big_two_div {
+    width: 100%;
+  }
+  body .div__first {
+    width: 60%;
+  }
+  body footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 4%;
+  }
+  body footer .footer_div {
+    display: flex;
+    width: 90%;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya {
+    width: 50%;
+    display: flex;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 50%;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 93%;
+    padding: 3%;
+    font-size: 14px;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 50%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 13px;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 30%;
+    top: 10%;
+    position: absolute;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    display: flex;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning {
+    width: 50%;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 4% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 4%;
+  }
+  body footer .footer_div {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    padding-left: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya {
+    width: 50%;
+    display: flex;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 50%;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 93%;
+    padding: 3%;
+    font-size: 14px;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 50%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 13px;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 30%;
+    top: 10%;
+    position: absolute;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    display: flex;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning {
+    width: 50%;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 4% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .xarita {
+    width: 50%;
+  }
+  body footer .footer_div .bizBilan_xarita .xarita div iframe {
+    width: 90% !important;
+    height: 200px;
+    margin-top: 3%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 4%;
+  }
+  body footer .footer_div {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya {
+    width: 50% !important;
+    flex-direction: column !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 70% !important;
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 100% !important;
+    font-size: 15px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 70% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 13px;
+    margin-top: 2%;
+    margin: auto;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 30%;
+    top: 10%;
+    position: absolute;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    flex-direction: column !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning {
+    width: 90% !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 4% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .xarita {
+    width: 50%;
+  }
+  body footer .footer_div .bizBilan_xarita .xarita div iframe {
+    width: 100% !important;
+    height: 200px;
+    margin-top: 3%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body .xarita {
+    width: 80% !important;
+  }
+  body .xarita div iframe {
+    width: 100% !important;
+    height: 200px;
+    margin-top: 3%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  body footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 4%;
+  }
+  body footer .footer_div {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya {
+    width: 50% !important;
+    flex-direction: column !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 70% !important;
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 100% !important;
+    font-size: 13px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 70% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya b {
+    font-size: 15px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 40px;
+    padding-top: 3%;
+    font-size: 11px !important;
+    margin-top: 2%;
+    margin: auto;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 28% !important;
+    top: 12% !important;
+    position: absolute;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita {
+    width: 50%;
+    flex-direction: column !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning {
+    width: 90% !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning b {
+    font-size: 15px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 10px !important;
+    margin-top: 4% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30% !important;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    color: white;
+    margin-top: 4%;
+  }
+  body footer .footer_div {
+    flex-direction: column !important;
+    width: 100%;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya {
+    width: 80% !important;
+    flex-direction: column !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 80% !important;
+    font-size: 15px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 100% !important;
+    font-size: 13px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 70% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya b {
+    font-size: 15px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 50px !important;
+    padding-top: 3%;
+    font-size: 11px !important;
+    margin-top: 2%;
+    margin: auto;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 28% !important;
+    top: 12% !important;
+    position: absolute;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita {
+    width: 100% !important;
+    flex-direction: column !important;
+    margin-top: 6% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning {
+    width: 60% !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning b {
+    font-size: 15px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 10px !important;
+    margin-top: 4% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30% !important;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    color: white;
+    margin-top: 4%;
+  }
+  body footer .footer_div {
+    flex-direction: column !important;
+    width: 100%;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya {
+    width: 80% !important;
+    flex-direction: column !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 80% !important;
+    font-size: 15px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 100% !important;
+    font-size: 13px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 70% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya b {
+    font-size: 13px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 50px !important;
+    padding-top: 3%;
+    font-size: 11px !important;
+    margin-top: 2%;
+    margin: auto;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 28% !important;
+    top: 12% !important;
+    position: absolute;
+    font-size: 11px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita {
+    width: 100% !important;
+    flex-direction: column !important;
+    margin-top: 6% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning {
+    width: 60% !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning b {
+    font-size: 15px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 10px !important;
+    margin-top: 4% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30% !important;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    color: white;
+    margin-top: 4%;
+  }
+  body footer .footer_div {
+    flex-direction: column !important;
+    width: 100%;
+    margin-top: 2%;
+  }
+  body footer .footer_div .maktab_navigatsiya {
+    width: 100% !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida {
+    width: 100% !important;
+    font-size: 15px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .text {
+    width: 100% !important;
+    font-size: 13px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .maktab_haqida .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya {
+    width: 100% !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya b {
+    font-size: 14px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy {
+    width: 90%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    height: 50px !important;
+    padding-top: 3%;
+    font-size: 11px !important;
+    margin-top: 2%;
+    margin: auto;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    transition: 0.6s ease;
+    margin-top: 1%;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div:hover {
+    transform: translate(47%);
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy div i {
+    color: black;
+    left: 28% !important;
+    top: 12% !important;
+    position: absolute;
+    font-size: 11px !important;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .asosiy b {
+    padding-left: 4%;
+    cursor: pointer;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto;
+  }
+  body footer .footer_div .maktab_navigatsiya .navigatsiya .chiziq div {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita {
+    width: 100% !important;
+    flex-direction: column !important;
+    margin-top: 6% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning b {
+    font-size: 15px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil {
+    width: 90%;
+    font-size: 10px !important;
+    margin-top: 4% !important;
+    padding-left: 10% !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .manzil b {
+    padding-top: 100px !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq {
+    width: 60% !important;
+    height: 2px;
+    background-color: rgb(105, 103, 103);
+    margin: auto !important;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .chiziq div {
+    width: 30% !important;
+    height: 2px;
+    background-color: white;
+  }
+  body footer .footer_div .bizBilan_xarita .boglaning .xarita {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 330px) {
+  body .big__div {
+    display: block;
+  }
+  body .big__div .big_one_div {
+    width: 100%;
+  }
+  body .big__div .big_two_div {
+    width: 100%;
+  }
+  body .big__div .big_two_div .div__smoll__1 h2 {
+    font-size: 20px;
+  }
+  body .big__div .big_two_div .div__smoll__3 .diz__big__div__1 h3 {
+    font-size: 17px;
+  }
+  body .div__first {
+    width: 70%;
+  }
+}
+body .wrapper {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+body button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+body #calendari {
+  position: relative;
+  overflow: hidden;
+  height: 310px;
+  width: 350px;
+  font-size: 14px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+}
+body table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 350px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition: all 0.3s ease;
+}
+body table.actiu {
+  transform: translateX(0px) top;
+}
+body table.inactiu {
+  transition: all 0.3s 0.01s ease;
+}
+body table.amagat-esquerra {
+  transform: translateX(-299px);
+}
+body table.amagat-dreta {
+  transform: translateX(300px);
+}
+body td, body th {
+  text-align: center;
+  background-color: #fff;
+}
+body th {
+  padding: 10px;
+}
+body tr:first-child th {
+  font-size: 20px;
+  font-weight: bold;
+  border-left: none;
+  border-top: none;
+}
+body td:last-child, body th:last-child {
+  border-right: none;
+}
+body th {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ace5f8;
+  color: #fff;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-weight: normal;
+}
+body th .any {
+  font-size: 12px;
+  font-weight: normal;
+  display: block;
+  text-shadow: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+body tr:nth-child(2) th {
+  padding: 5px;
+}
+body td {
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+body td > span {
+  color: #555;
+  padding: 10px;
+  display: block;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+}
+body td:nth-child(even) > span {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+body td:last-child > span,
+body td:nth-child(6) > span {
+  color: #9b59b6;
+}
+body td.avui > span {
+  font-weight: bold;
+  background-color: #ace5f8;
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+body td.fora > span {
+  opacity: 0.2;
+}
+body td > span:hover {
+  background-color: #ace5f8;
+  color: #fff;
+}
+body .boto-next, body .boto-prev {
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: inherit;
+  padding: 2px 10px 5px 10px;
+  line-height: 1px;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  border-radius: 100%;
+  position: absolute;
+  top: 15px;
+}
+body .boto-next {
+  right: 10px;
+  padding-left: 13px;
+}
+body .boto-prev {
+  left: 10px;
+  padding-right: 13px;
+}
+body .boto-next:hover,
+body .boto-prev:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+body button:hover {
+  cursor: pointer;
+}
+body button:focus {
+  outline: none;
+}
+body footer {
+  text-align: center;
+  color: #ddd;
+  font-weight: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-size: 0.8em;
+  padding: 20px;
+}
+body footer a,
+body footer a:link {
+  color: #fff;
+  text-decoration: none;
+}
+body html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+body * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+body body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #807a7a;
+  margin: 0;
+  background: #fff;
+}
+body a {
+  color: #5d5d5d;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  cursor: pointer;
+  display: inline-block;
+}
+body .ed-button {
+  margin-top: -20%;
+  margin: auto;
+  color: #5d5d5d;
+  background-color: #FFF;
+  margin-left: -5%;
+}
+body .secondary-button {
+  color: #5d5d5d;
+  margin-top: 15%;
+  margin-left: -40%;
+}
+body .ed-news-ticker {
+  display: none;
+}
+body .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+body section {
+  padding: 60px 0;
+}
+body h2.section-header {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 34px;
+  position: relative;
+  color: #333;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+body h2.section-header:after {
+  content: "";
+  position: absolute;
+}
+body h2.section-header:before {
+  background: #333;
+  width: 10px;
+  height: 10px;
+  bottom: -10px;
+  left: 160px;
+}
+body h2.section-header:after {
+  background: #004A8D;
+  width: 150px;
+  left: 0;
+  height: 1px;
+  bottom: -5px;
+}
+body h2.section-header span {
+  display: inline-block;
+  margin-left: 5px;
+  margin-left: 10px;
+  color: #004A8D;
+}
+body .ed-header.layout-2 {
+  text-align: center;
+  margin: 0 auto 40px;
+}
+body .ed-header.layout-2 h2.section-header:before {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 99;
+  border: 5px solid #fff;
+  bottom: -15px;
+}
+body .ed-header.layout-2 h2.section-header:after {
+  right: 0;
+  margin: 0 auto;
+}
+body .ed-services.layout-2 {
+  padding-bottom: 0;
+  background-color: #fff;
+}
+body .educenter_counter_wrap h2.section-header {
+  color: #fff;
+}
+body .ed-cta.layout-1 {
+  text-align: center;
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body .ed-cta.layout-1 .ed-cta-holder {
+  color: #fff;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  max-width: 800px;
+  margin: 0 auto;
+}
+body .ed-cta.layout-1 .ed-cta-holder h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+}
+body .ed-cta.layout-1 .ed-cta-holder p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 1.5em;
+}
+body .ed-cta.layout-1 .ed-cta-holder a.ed-button {
+  color: #ffffff;
+  border-color: #004A8D;
+  padding: 10px 25px;
+  margin-top: 40px;
+  font-size: 16px;
+}
+body .ed-cta.layout-1 .ed-cta-holder a.ed-button.secondary-button {
+  background-color: #fff;
+  margin-left: 15px;
+  color: #77815c;
+}
+body section.ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-item-wrapper img {
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  width: 100%;
+}
+body .ed-gallery-inner {
+  background-color: #004A8D;
+}
+body .educenter_counter_wrap {
+  padding: 60px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  background-attachment: fixed;
+  position: relative;
+  background-position: 50% 0;
+}
+body .educenter_counter_wrap:before {
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  height: 100%;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+body .educenter_counter_wrap .ed-header.layout-2 p {
+  color: #fff;
+  position: relative;
+}
+body .educenter_counter_wrap .ed-col {
+  display: inline-block;
+  padding: 0 10px;
+  width: calc((100% - 15px) / 4);
+  width: -webkit-calc((100% - 25px ) / 4);
+}
+body .educenter_counter {
+  text-align: center;
+  border: 2px solid #004a8d;
+  border-top: 0;
+  padding: 0 20px 20px;
+  position: relative;
+  margin-top: 50px;
+  border-radius: 0 0 45px;
+}
+body .educenter_counter:after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  left: 0;
+  top: 0;
+  height: 2px;
+  background: #004a8d;
+}
+body .educenter_counter:before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  right: 0;
+  top: 0;
+  height: 2px;
+  background: #004a8d;
+}
+body .educenter_counter-count {
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+body .educenter_counter-icon {
+  display: inline-block;
+  font-size: 45px;
+  color: #fff;
+  position: relative;
+  transform: translate(0, -17px);
+  line-height: 36px;
+}
+body .educenter_counter-title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+}
+body section.ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-item-wrapper img {
+  border-radius: 80px 0;
+}
+body .ed-inner-page .ed-courses.layout-2 {
+  background: transparent;
+}
+body .ed-gallery-wrapper.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+body .ed-gallery-wrapper.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+body .ed-gallery-wrapper.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body .ed-gallery-wrapper.grid-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+body .ed-btn-wrap {
+  width: 100%;
+}
+body .ed-gallery .ed-gallery-wrapper .ed-gallery-item {
+  border-radius: 50px 0 50px 0;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  padding: 15px 15px 15px 15px;
+}
+body .ed-gallery .ed-gallery-wrapper .ed-gallery-item.no-gap {
+  padding: 0;
+  border-radius: 50px 0 50px 0;
+}
+body .ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-item-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+body .ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-button {
+  position: absolute;
+  text-align: right;
+  bottom: 0;
+  right: 0;
+  z-index: 33;
+  background: #004A8D;
+  opacity: 0;
+  padding: 8px 10px 8px 15px;
+  border-radius: 30px 0 0 0;
+  transition: all 0.4s ease;
+}
+body .ed-gallery .ed-gallery-wrapper .ed-gallery-item:hover .ed-gallery-button {
+  opacity: 1;
+}
+body .ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-button .ed-btn {
+  display: inline-block;
+  text-align: center;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #fff;
+  z-index: 99;
+}
+body .caption::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body .caption {
+  position: absolute;
+  display: flex;
+  top: 0;
+  background: rgba(0, 145, 255, 0.7882352941);
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 80px 0 0 0;
+}
+body .ed-gallery .ed-gallery-wrapper .ed-gallery-item:hover .caption {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+body .ed-gallery-item:hover .caption::after {
+  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 101%, 0);
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 101%, 0);
+}
+body .ed-gallery-item .caption::after {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -101%, 0);
+  -webkit-transition: all 0.6s;
+}
+body .ed-gallery-head {
+  background-color: #FFF;
+}
+@-webkit-keyframes bounce_two {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-1.375rem);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-0.1875rem);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes bounce_two {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-1.375rem);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-0.1875rem);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+body .ed-header .ed-badge {
+  padding: 2px 20px;
+  border-radius: 6.25rem;
+  line-height: 1.9375rem;
+  margin-bottom: 0.5rem;
+  -webkit-animation-name: bounce_two;
+          animation-name: bounce_two;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transform-origin: bottom;
+  position: relative;
+  color: white;
+  background-color: #004a8d;
+  z-index: 1;
+  display: inline-block;
+  font-size: 16px;
+}
+body .ed-header .ed-badge::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0.6875rem;
+  height: 0.6875rem;
+  background-color: #004a8d;
+  transform: translateY(50%) rotate(45deg);
+  z-index: -1;
+}
+@media (max-width: 860px) {
+  body .ed-courses.layout-2 .ed-col-wrap .ed-col:nth-child(even) {
+    margin-right: 0;
+  }
+  body [data-layout*=counter] .ed-col {
+    width: 49%;
+  }
+  body .ed-gallery .ed-gallery-wrapper .ed-gallery-item .ed-gallery-button {
+    opacity: 1;
+  }
+  body .ed-gallery-wrapper.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  body .ed-gallery-wrapper.grid-3,
+body .ed-gallery-wrapper.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  body h2.section-header {
+    font-size: 30px;
+  }
+}
+@media (max-width: 480px) {
+  body h2.section-header {
+    font-size: 20px;
+  }
+  body h2.ed-text-holder {
+    font-size: 20px;
+  }
+}
+@media (max-width: 360px) {
+  body .ed-cta-holder h2.ed-text-holder {
+    font-size: 20px;
+  }
+  body .ed-button {
+    width: 90%;
+  }
+  body .secondary-button {
+    width: 80%;
+  }
+  body h2.section-header {
+    font-size: 20px;
+  }
+  body #ed-col1 {
+    width: 100%;
+    margin-top: -5%;
+  }
+  body .ed-gallery-wrapper.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 998px) {
+  body .big__div {
+    display: block;
+  }
+  body .big__div .big_one_div {
+    width: 100%;
+  }
+  body .big__div .big_two_div {
+    width: 100%;
+  }
+  body .div__first {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 330px) {
+  body .big__div {
+    display: block;
+  }
+  body .big__div .big_one_div {
+    width: 100%;
+  }
+  body .big__div .big_two_div {
+    width: 100%;
+  }
+  body .big__div .big_two_div .div__smoll__1 h2 {
+    font-size: 20px;
+  }
+  body .big__div .big_two_div .div__smoll__2 {
+    display: none;
+  }
+  body .big__div .big_two_div .div__smoll__3 .diz__big__div__1 h3 {
+    font-size: 17px;
+  }
+  body .div__first {
+    width: 70%;
+  }
+}
+body .wrapper {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+body button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+body #calendari {
+  position: relative;
+  overflow: hidden;
+  height: 310px;
+  width: 350px;
+  font-size: 14px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+}
+body table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 350px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition: all 0.3s ease;
+}
+body table.actiu {
+  transform: translateX(0px) top;
+}
+body table.inactiu {
+  transition: all 0.3s 0.01s ease;
+}
+body table.amagat-esquerra {
+  transform: translateX(-299px);
+}
+body table.amagat-dreta {
+  transform: translateX(300px);
+}
+body td, body th {
+  text-align: center;
+  background-color: #fff;
+}
+body th {
+  padding: 10px;
+}
+body tr:first-child th {
+  font-size: 20px;
+  font-weight: bold;
+  border-left: none;
+  border-top: none;
+}
+body td:last-child, body th:last-child {
+  border-right: none;
+}
+body th {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ace5f8;
+  color: #fff;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-weight: normal;
+}
+body th .any {
+  font-size: 12px;
+  font-weight: normal;
+  display: block;
+  text-shadow: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+body tr:nth-child(2) th {
+  padding: 5px;
+}
+body td {
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+body td > span {
+  color: #555;
+  padding: 10px;
+  display: block;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+}
+body td:nth-child(even) > span {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+body td:last-child > span,
+body td:nth-child(6) > span {
+  color: #9b59b6;
+}
+body td.avui > span {
+  font-weight: bold;
+  background-color: #ace5f8;
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+body td.fora > span {
+  opacity: 0.2;
+}
+body td > span:hover {
+  background-color: #ace5f8;
+  color: #fff;
+}
+body .boto-next, body .boto-prev {
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: inherit;
+  padding: 2px 10px 5px 10px;
+  line-height: 1px;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  border-radius: 100%;
+  position: absolute;
+  top: 15px;
+}
+body .boto-next {
+  right: 10px;
+  padding-left: 13px;
+}
+body .boto-prev {
+  left: 10px;
+  padding-right: 13px;
+}
+body .boto-next:hover,
+body .boto-prev:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+body button:hover {
+  cursor: pointer;
+}
+body button:focus {
+  outline: none;
+}
+body footer {
+  text-align: center;
+  color: #ddd;
+  font-weight: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-size: 0.8em;
+  padding: 20px;
+}
+body footer a,
+body footer a:link {
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=tadbirlar.css.map */

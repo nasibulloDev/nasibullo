@@ -1,0 +1,2425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    .body__div{
+      width: 90%;
+      margin: auto;
+      margin-top: 5%;
+    
+    .btn__one{
+      border-radius: 15px ;
+      margin: 1% auto auto;
+      color: white;
+      background-color: #004a8d;
+      border: none;
+      margin-left: 45.5%;
+      margin-bottom: 2%;
+      font-size: 17px;
+    
+    }
+    .h2__div{
+      width: 80%;
+      margin: auto;
+      text-align:center;
+    }
+    .pain__big__div{
+      display: flex;
+      gap:2%;
+      margin: 1%;
+      justify-content: center;
+      .pain__div1{
+          width: 3%;
+          border: 1px solid black;
+          margin-top: 0.7%;
+          margin-bottom: 0.7%;
+    
+      }
+      .pain__divv2{
+          width: 1%;
+          height: 5px;
+          margin-top: 0.4%;
+          border-bottom: 7px solid black;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+      }
+      .pain__divvv3{
+          width: 3%;
+          margin-top: 0.7%;
+          margin-bottom: 0.7%;
+          border-bottom: 2px solid black;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+      }
+    }
+    .h5__div{
+      text-align: center;
+      color: #666;
+      margin-top: 2%;
+    }
+    .big__div{
+      width: 100%;
+      display: flex;
+      margin-top: 3%;
+      .smoll__div{
+         width:30%;
+         border: 1px solid black;
+         margin: auto;
+         background-color: #333333;
+         color: #FFFFFF;
+         font: lato, sans-serif;
+         
+        .norm__div{
+          display: flex;
+    
+          i{
+              color: black;
+              margin-top: 15%;
+              margin-left: 7%;
+          }
+          h2{
+              margin-top: 5%;
+              margin-left: 8%;
+          }
+        }
+        h4{
+          margin-top: 2%;
+          margin-left: 18%;
+          margin-bottom: 10%;
+        }
+    
+      }
+    }
+    
+    
+    .end__div{
+      width: 100%;
+      display: flex;
+      margin-top: 10%;
+      .one__div{
+          width: 50%;
+         h1{
+          margin-top: 25%;
+          margin-left: 5%;
+         }
+         h6{
+          color: #999;
+          margin-left: 5%;
+         }
+         .pain__big__div{
+          display: flex;
+          margin: 1%;
+          margin-left: -53%;
+          .pain__div1{
+              width: 20%;
+              border-bottom: 2px solid #004a8d;
+              border-top: none;
+              border-left: none;
+              border-right: none;
+              margin-top: 1.2%;
+              margin-bottom: 1.5%;
+      
+          }
+          .pain__divv2{
+              width: 1%;
+              height: 5px;
+              margin-top: 0.3%;
+              border: 7px solid black;
+          }
+    
+      }
+      }
+      .two__div{
+          width: 50%;
+          img{
+              margin-left: 10%;
+              margin-top: 10%;
+              width: 70%;
+          }
+      }
+    }
+    
+    
+    
+    
+    @media only screen and (max-width: 750px) {
+    .pain__big__div{
+      display: none;
+    }
+    .btn__one{
+      width: 20%;
+      font-size: 10px;
+      margin-left: 40%;
+    }
+    .big__div{
+      display: block;
+      .smoll__div{
+          width: 100%;
+          margin-bottom: 3%;
+          h2{
+              font-size: 30px;
+          }
+    
+      }
+    }
+    .end__div{
+      width: 100%;
+      flex-direction: column-reverse;
+      .one__div{
+          width: 100%;
+          h1{
+            margin-top: 2%;
+          }
+          .pain__big__div{
+              display: none;
+          }
+          h6{
+              margin-top: 2%;
+              font-size: 15px;
+          }
+      }
+      .two__div{
+          width: 100%;
+          img{
+              margin-left: -0%;
+              width: 100%;
+          }
+      }
+    }
+    
+    
+    }
+    
+    
+    
+    
+    @media only screen and (max-width: 330px) {
+    
+    .pain__big__div{
+          display: none;
+      }
+      .btn__one{
+          width: 40%;
+          font-size: 15px;
+          margin-left: 30%;
+      }
+      .big__div{
+          display: block;
+          .smoll__div{
+              width: 100%;
+              margin-bottom: 3%;
+              .norm__div{
+              h2{
+                  margin-left: 6%;
+                  font-size: 30px;
+              }
+              I{
+                  display: none;
+              }                
+              }
+              h4{
+                  margin-left: 6%;
+              }
+    
+      
+          }
+      }
+      .end__div{
+          width: 100%;
+          flex-direction: column-reverse;
+          .one__div{
+              width: 100%;
+              h1{
+                margin-top: 2%;
+              }
+              .pain__big__div{
+                  display: none;
+              }
+              h6{
+                  margin-top: 2%;
+                  font-size: 15px;
+              }
+          }
+          .two__div{
+              width: 100%;
+              img{
+                  margin-left: -0%;
+                  width: 100%;
+              }
+          }
+      }
+    }
+      
+    
+    
+    // 2  topshiriq
+    
+    
+    .sevens__div{
+      width: 70%;
+      display: flex;
+      overflow-x: scroll;
+      margin: auto;
+      margin-bottom: 5%;
+      .onee___div{
+          width: 100% !important;
+          margin-left: 6%;
+    
+          .twoo__div{
+              width: 99%;
+              margin: auto;
+              background-color: #004a8d;
+              color: white;
+              text-align: center;
+          }
+      }
+      .onee__div{
+          width: 100% !important;
+          margin-left: 4%;
+    
+          .twoo__div{
+              width: 99%;
+              margin: auto;
+              background-color: #004a8d;
+              color: white;
+              text-align: center;
+          }
+      }
+    }
+    
+    
+    
+    
+    
+    
+    // online code
+    
+    section{
+      position: relative;  
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    
+    .swiper{
+      width: 85%;
+    }
+    
+    .card{
+      position: relative;
+      background: #fff;
+      border-radius: 20px;
+      margin: 4% 0;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card::before{
+      content: "";
+      position: absolute;
+      height: 40%;
+      width: 100%;
+      border-radius: 20px 20px 0 0;
+    }
+    
+    .card .card-content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+      position: relative;
+    }
+    
+    section .card .image{
+      width: 5%;
+      border-radius: 50%;
+      padding: 1%;
+    }
+    
+    section .card .image img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #fff;
+    }
+    
+    .card .media-icons{
+      position: absolute;
+      top: 5%;
+      right: 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .card .media-icons i{
+      color: #fff;
+      opacity: 0.6;
+      margin-top: 5%;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .card .media-icons i:hover{
+      opacity: 1;
+    }
+    
+    .card .name-profession{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5%;
+    } 
+    
+    .name-profession .name{
+      font-size: 20px;
+    }
+    
+    .name-profession .profession{
+      font-size:15px;
+    }
+    
+    .card .rating{
+      display: flex;
+      align-items: center;
+      margin-top: 5%;
+    }
+    
+    .card .rating i{
+      font-size: 18px;
+      margin: 0 0.5%;
+    }
+    
+    .card .button{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5%;
+    }
+    
+    .card .button button{
+      outline: none;
+      border: none;
+      color: #fff;
+      padding: 2% 10%;
+      border-radius: 20px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    
+     .twoo__div{
+      width: 99%;
+      border-radius: 5px;
+      margin: auto;
+      text-align: center;
+      color: white;
+      background-color: #004a8d;
+     }
+    
+    .swiper-pagination{
+      position: absolute;
+    }
+    
+    .swiper-pagination-bullet{
+      height: 7px;
+      width: 5%;
+      border-radius: 25px;
+    }
+    
+    .swiper-button-next, .swiper-button-prev{
+      opacity: 0.7;
+      transition: all 0.3s ease;
+    }
+    .swiper-button-next:hover, .swiper-button-prev:hover{
+      opacity: 1;
+    }
+    
+    @keyframes bounce_two{
+      0%{transform:scale(1,1) translateY(0)}
+      10%{transform:scale(1.1,.9) translateY(0)}
+      30%{transform:scale(.9,1.1) translateY(-1.375rem)}
+      50%{transform:scale(1,1) translateY(0)}
+      57%{transform:scale(1,1) translateY(-0.1875rem)}
+      64%{transform:scale(1,1) translateY(0)}
+      100%{transform:scale(1,1) translateY(0)}
+    }
+    .ed-badge {
+      padding: 2px 20px;
+      border-radius: 6.25rem;
+      line-height: 1.9375rem;
+      margin-bottom: 0.5rem;
+      animation-name: bounce_two;
+      animation-timing-function: ease;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      transform-origin: bottom;
+      position: relative;
+      color: white;
+      background-color: #004a8d;
+      z-index: 1;
+      display: inline-block;
+      font-size: 16px;
+      
+    }
+    .ed-badge::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0.6875rem;
+      height: 0.6875rem;
+      background-color: #004a8d;
+      -ms-transform: translateY(50%) rotate(45deg);
+      transform: translateY(50%) rotate(45deg);
+      z-index: -1;
+    }
+    
+    
+    }
+    
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+    
+        .footer_div {
+          display: flex;
+          width: 85%;
+          margin-top: 2%;
+    
+          .maktab_navigatsiya {
+            width: 50%;
+            display: flex;
+    
+            .maktab_haqida {
+              width: 50%;
+    
+              .text {
+                width: 93%;
+                padding: 3%;
+                font-size: 14px;
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+    
+            .navigatsiya {
+              width: 50%;
+    
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 13px;
+                margin-top: 2%;
+    
+                div {
+                  width: 17px;
+                  height: 17px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+    
+                  &:hover {
+                    transform: translate(47%);
+                  }
+    
+                  i {
+                    color: black;
+                    left: 30%;
+                    top: 10%;
+                    position: absolute;
+                  }
+                }
+    
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+    
+          .bizBilan_xarita {
+            width: 50%;
+            display: flex;
+    
+            .boglaning {
+              width: 50%;
+    
+              .manzil {
+                width: 90%;
+                font-size: 13px;
+                margin-top: 4% !important;
+    
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+              
+            }
+              .xarita{
+                width: 50%;
+                div{
+                  iframe{
+                    width:100%;
+                    height: 200px;
+                    margin-top: 3%;
+                  }
+                }
+              }
+          }
+    
+        }
+    
+      }
+ @media only screen and (max-width: 998px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+    
+        .footer_div {
+          display: flex;
+          width: 70%;
+          margin-top: 2%;
+    
+          .maktab_navigatsiya {
+            width: 50%;
+            display: flex;
+    
+            .maktab_haqida {
+              width: 50%;
+    
+              .text {
+                width: 93%;
+                padding: 3%;
+                font-size: 14px;
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+    
+            .navigatsiya {
+              width: 50%;
+    
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 13px;
+                margin-top: 2%;
+    
+                div {
+                  width: 17px;
+                  height: 17px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+    
+                  &:hover {
+                    transform: translate(47%);
+                  }
+    
+                  i {
+                    color: black;
+                    left: 30%;
+                    top: 10%;
+                    position: absolute;
+                  }
+                }
+    
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+    
+          .bizBilan_xarita {
+            width: 50%;
+            display: flex;
+    
+            .boglaning {
+              width: 50%;
+    
+              .manzil {
+                width: 90%;
+                font-size: 13px;
+                margin-top: 4% !important;
+    
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .xarita {
+                width: 50%;
+              }
+            }
+          }
+    
+        }
+    
+      }
+      }    
+      @media only screen and (max-width: 1100px){
+        footer {
+            width: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-top: 4%;
+        
+            .footer_div {
+              display: flex;
+              width: 80%;
+              margin-top: 2%;
+        
+              .maktab_navigatsiya {
+                width: 50%;
+                display: flex;
+        
+                .maktab_haqida {
+                  width: 50%;
+        
+                  .text {
+                    width: 93%;
+                    padding: 3%;
+                    font-size: 14px;
+                  }
+        
+                  .chiziq {
+                    width: 90%;
+                    height: 2px;
+                    background-color: rgb(105, 103, 103);
+        
+                    div {
+                      width: 30%;
+                      height: 2px;
+                      background-color: white;
+                    }
+                  }
+                }
+        
+                .navigatsiya {
+                  width: 50%;
+        
+                  .asosiy {
+                    width: 90%;
+                    border-bottom: 1px solid gray;
+                    display: flex;
+                    height: 40px;
+                    padding-top: 3%;
+                    font-size: 13px;
+                    margin-top: 2%;
+        
+                    div {
+                      width: 17px;
+                      height: 17px;
+                      border-radius: 50%;
+                      background-color: white;
+                      position: relative;
+                      transition: 0.6s ease;
+                      margin-top: 1%;
+        
+                      &:hover {
+                        transform: translate(47%);
+                      }
+        
+                      i {
+                        color: black;
+                        left: 30%;
+                        top: 10%;
+                        position: absolute;
+                      }
+                    }
+        
+                    b {
+                      padding-left: 4%;
+                      cursor: pointer;
+                    }
+                  }
+        
+                  .chiziq {
+                    width: 90%;
+                    height: 2px;
+                    background-color: rgb(105, 103, 103);
+        
+                    div {
+                      width: 30%;
+                      height: 2px;
+                      background-color: white;
+                    }
+                  }
+                }
+              }
+        
+              .bizBilan_xarita {
+                width: 50%;
+                display: flex;
+        
+                .boglaning {
+                  width: 50%;
+        
+                  .manzil {
+                    width: 90%;
+                    font-size: 13px;
+                    margin-top: 4% !important;
+        
+                    b {
+                      padding-top: 100px !important;
+                    }
+                  }
+        
+                  .chiziq {
+                    width: 90%;
+                    height: 2px;
+                    background-color: rgb(105, 103, 103);
+        
+                    div {
+                      width: 30%;
+                      height: 2px;
+                      background-color: white;
+                    }
+                  }
+        
+                  .chiziq {
+                    width: 90%;
+                    height: 2px;
+                    background-color: rgb(105, 103, 103);
+        
+                    div {
+                      width: 30%;
+                      height: 2px;
+                      background-color: white;
+                    }
+                  }
+        
+                  .xarita {
+                    width: 50%;
+                  }
+                }
+              }
+        
+            }
+        
+          }
+      }
+@media only screen and (max-width: 998px) {
+      .big__div{
+        display: block;
+        .big_one_div{
+            width: 100%;
+        }
+        .big_two_div{
+            width: 100%;
+        }
+      }
+      .div__first{
+        width: 60%;
+      }
+      footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+    
+        .footer_div {
+          display: flex;
+          width: 90%;
+          margin-top: 2%;
+    
+          .maktab_navigatsiya {
+            width: 50%;
+            display: flex;
+    
+            .maktab_haqida {
+              width: 50%;
+    
+              .text {
+                width: 93%;
+                padding: 3%;
+                font-size: 14px;
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+    
+            .navigatsiya {
+              width: 50%;
+    
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 13px;
+                margin-top: 2%;
+    
+                div {
+                  width: 17px;
+                  height: 17px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+    
+                  &:hover {
+                    transform: translate(47%);
+                  }
+    
+                  i {
+                    color: black;
+                    left: 30%;
+                    top: 10%;
+                    position: absolute;
+                  }
+                }
+    
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+    
+          .bizBilan_xarita {
+            width: 50%;
+            display: flex;
+    
+            .boglaning {
+              width: 50%;
+    
+              .manzil {
+                width: 90%;
+                font-size: 13px;
+                margin-top: 4% !important;
+    
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .xarita {
+                width: 50%;
+              }
+            }
+          }
+    
+        }
+    
+      }
+  }
+  @media only screen and (max-width: 900px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+    
+        .footer_div {
+          display: flex;
+          width: 100%;
+          margin-top: 2%;
+          padding-left: 2%;
+    
+          .maktab_navigatsiya {
+            width: 50%;
+            display: flex;
+    
+            .maktab_haqida {
+              width: 50%;
+    
+              .text {
+                width: 93%;
+                padding: 3%;
+                font-size: 14px;
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+    
+            .navigatsiya {
+              width: 50%;
+    
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 13px;
+                margin-top: 2%;
+    
+                div {
+                  width: 17px;
+                  height: 17px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+    
+                  &:hover {
+                    transform: translate(47%);
+                  }
+    
+                  i {
+                    color: black;
+                    left: 30%;
+                    top: 10%;
+                    position: absolute;
+                  }
+                }
+    
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+    
+          .bizBilan_xarita {
+            width: 50%;
+            display: flex;
+    
+            .boglaning {
+              width: 50%;
+    
+              .manzil {
+                width: 90%;
+                font-size: 13px;
+                margin-top: 4% !important;
+    
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+              .chiziq {
+                width: 90%;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+    
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+    
+    
+            }
+    
+            .xarita {
+              width: 50%;
+    
+              div {
+                iframe {
+                  width: 90% !important;
+                  height: 200px;
+                  margin-top: 3%;
+                }
+              }
+            }
+          }
+    
+    
+        }
+    
+      }
+  }
+  @media only screen and (max-width: 800px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+  
+        .footer_div {
+          display: flex;
+          width: 100%;
+          margin-top: 2%;
+  
+          .maktab_navigatsiya {
+            width: 50% !important;
+            flex-direction: column !important;
+  
+            .maktab_haqida {
+              width: 70% !important;
+              font-size: 16px !important;
+              text-align: center !important;
+  
+              .text {
+                width: 100% !important;
+                font-size: 15px !important;
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+  
+            .navigatsiya {
+              width: 70% !important;
+              margin-top: 4% !important;
+              text-align: center !important;
+  
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 13px;
+                margin-top: 2%;
+                margin: auto;
+  
+                div {
+                  width: 17px;
+                  height: 17px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+  
+                  &:hover {
+                    transform: translate(47%);
+                  }
+  
+                  i {
+                    color: black;
+                    left: 30%;
+                    top: 10%;
+                    position: absolute;
+                  }
+                }
+  
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+  
+          .bizBilan_xarita {
+            width: 50%;
+            // display: flex;
+            flex-direction: column !important;
+  
+            .boglaning {
+              width: 90% !important;
+              text-align: center !important;
+  
+              .manzil {
+                width: 90%;
+                font-size: 13px;
+                margin-top: 4% !important;
+  
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+  
+  
+  
+  
+            }
+  
+            .xarita {
+              width: 50%;
+  
+              div {
+                iframe {
+                  width: 100% !important;
+                  height: 200px;
+                  margin-top: 3%;
+                }
+              }
+            }
+          }
+  
+        }
+  
+      }
+  }
+  @media only screen and(max-width:650px){
+    .xarita {
+        width: 80% !important;
+  
+        div {
+          iframe {
+            width: 100% !important;
+            height: 200px;
+            margin-top: 3%;
+          }
+        }
+      }
+  }
+  @media only screen and (max-width: 550px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 4%;
+  
+        .footer_div {
+          display: flex;
+          width: 100%;
+          margin-top: 2%;
+  
+          .maktab_navigatsiya {
+            width: 50% !important;
+            flex-direction: column !important;
+  
+            .maktab_haqida {
+              width: 70% !important;
+              font-size: 15px !important;
+              text-align: center !important;
+  
+              .text {
+                width: 100% !important;
+                font-size: 13px !important;
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+  
+            .navigatsiya {
+              width: 70% !important;
+              margin-top: 4% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 40px;
+                padding-top: 3%;
+                font-size: 11px !important;
+                margin-top: 2%;
+                margin: auto;
+  
+                div {
+                  width: 13px;
+                  height: 13px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+  
+                  &:hover {
+                    transform: translate(47%);
+                  }
+  
+                  i {
+                    color: black;
+                    left: 28% !important;
+                    top: 12% !important;
+                    position: absolute;
+                  }
+                }
+  
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+  
+          .bizBilan_xarita {
+            width: 50%;
+            // display: flex;
+            flex-direction: column !important;
+  
+            .boglaning {
+              width: 90% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .manzil {
+                width: 90%;
+                font-size: 10px !important;
+                margin-top: 4% !important;
+  
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30% !important;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+  
+  
+  
+              .xarita {
+                width: 90% !important;
+  
+              }
+            }
+          }
+  
+        }
+  
+      }
+  }
+  @media only screen and (max-width: 500px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+        color: white;
+        margin-top: 4%;
+  
+        .footer_div {
+          // display: flex;
+          flex-direction: column !important;
+          width: 100%;
+          margin-top: 2%;
+  
+          .maktab_navigatsiya {
+            width: 80% !important;
+            flex-direction: column !important;
+  
+            .maktab_haqida {
+              width: 80% !important;
+              font-size: 15px !important;
+              // text-align: center !important;
+  
+              .text {
+                width: 100% !important;
+                font-size: 13px !important;
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+  
+            .navigatsiya {
+              width: 70% !important;
+              margin-top: 4% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 50px !important;
+                padding-top: 3%;
+                font-size: 11px !important;
+                margin-top: 2%;
+                margin: auto;
+  
+                div {
+                  width: 13px;
+                  height: 13px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+  
+                  &:hover {
+                    transform: translate(47%);
+                  }
+  
+                  i {
+                    color: black;
+                    left: 28% !important;
+                    top: 12% !important;
+                    position: absolute;
+                  }
+                }
+  
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+  
+          .bizBilan_xarita {
+            width: 100% !important;
+            // display: flex;
+            flex-direction: column !important;
+            margin-top: 6% !important;
+  
+            .boglaning {
+              width: 60% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .manzil {
+                width: 90%;
+                font-size: 10px !important;
+                margin-top: 4% !important;
+  
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30% !important;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+  
+  
+  
+              .xarita {
+                width: 90% !important;
+  
+              }
+            }
+          }
+  
+        }
+  
+      }
+  }
+  @media only screen and (max-width: 450px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+        color: white;
+        margin-top: 4%;
+  
+        .footer_div {
+          // display: flex;
+          flex-direction: column !important;
+          width: 100%;
+          margin-top: 2%;
+  
+          .maktab_navigatsiya {
+            width: 80% !important;
+            flex-direction: column !important;
+  
+            .maktab_haqida {
+              width: 80% !important;
+              font-size: 15px !important;
+              // text-align: center !important;
+  
+              .text {
+                width: 100% !important;
+                font-size: 13px !important;
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+  
+            .navigatsiya {
+              width: 70% !important;
+              margin-top: 4% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 13px !important;
+              }
+  
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 50px !important;
+                padding-top: 3%;
+                font-size: 11px !important;
+                margin-top: 2%;
+                margin: auto;
+  
+                div {
+                  width: 13px;
+                  height: 13px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+  
+                  &:hover {
+                    transform: translate(47%);
+                  }
+  
+                  i {
+                    color: black;
+                    left: 28% !important;
+                    top: 12% !important;
+                    position: absolute;
+                    font-size: 11px !important;
+                  }
+                }
+  
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+  
+          .bizBilan_xarita {
+            width: 100% !important;
+            // display: flex;
+            flex-direction: column !important;
+            margin-top: 6% !important;
+  
+            .boglaning {
+              width: 60% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .manzil {
+                width: 90%;
+                font-size: 10px !important;
+                margin-top: 4% !important;
+  
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30% !important;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+  
+  
+  
+              .xarita {
+                width: 90% !important;
+  
+              }
+            }
+          }
+  
+        }
+  
+      }
+  }
+  @media only screen and (max-width:400px){
+    footer {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+        color: white;
+        margin-top: 4%;
+  
+        .footer_div {
+          // display: flex;
+          flex-direction: column !important;
+          width: 100%;
+          margin-top: 2%;
+  
+          .maktab_navigatsiya {
+            width: 100% !important;
+            flex-direction: column !important;
+            text-align: center !important;
+  
+            .maktab_haqida {
+              width: 100% !important;
+              font-size: 15px !important;
+              // text-align: center !important;
+  
+              .text {
+                width: 100% !important;
+                font-size: 13px !important;
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+  
+            .navigatsiya {
+              width: 100% !important;
+              margin-top: 4% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 14px !important;
+              }
+  
+              .asosiy {
+                width: 90%;
+                border-bottom: 1px solid gray;
+                display: flex;
+                height: 50px !important;
+                padding-top: 3%;
+                font-size: 11px !important;
+                margin-top: 2%;
+                margin: auto;
+  
+                div {
+                  width: 13px;
+                  height: 13px;
+                  border-radius: 50%;
+                  background-color: white;
+                  position: relative;
+                  transition: 0.6s ease;
+                  margin-top: 1%;
+  
+                  &:hover {
+                    transform: translate(47%);
+                  }
+  
+                  i {
+                    color: black;
+                    left: 28% !important;
+                    top: 12% !important;
+                    position: absolute;
+                    font-size: 11px !important;
+                  }
+                }
+  
+                b {
+                  padding-left: 4%;
+                  cursor: pointer;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto;
+  
+                div {
+                  width: 30%;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+            }
+          }
+  
+          .bizBilan_xarita {
+            width: 100% !important;
+            // display: flex;
+            flex-direction: column !important;
+            margin-top: 6% !important;
+  
+            .boglaning {
+              width: 100% !important;
+              text-align: center !important;
+  
+              b {
+                font-size: 15px !important;
+              }
+  
+              .manzil {
+                width: 90%;
+                font-size: 10px !important;
+                margin-top: 4% !important;
+                padding-left: 10% !important;
+  
+                b {
+                  padding-top: 100px !important;
+                }
+              }
+  
+              .chiziq {
+                width: 60% !important;
+                height: 2px;
+                background-color: rgb(105, 103, 103);
+                margin: auto !important;
+  
+                div {
+                  width: 30% !important;
+                  height: 2px;
+                  background-color: white;
+                }
+              }
+  
+  
+  
+              .xarita {
+                width: 90% !important;
+  
+              }
+            }
+          }
+  
+        }
+  
+      }
+  }
+@media only screen and (max-width: 330px) {
+    .big__div{
+      display: block;
+      .big_one_div{
+          width: 100%;
+      }
+      .big_two_div{
+          width: 100%;
+        .div__smoll__1{
+            h2{
+             font-size: 20px;
+          }     
+          }
+        .div__smoll__3{
+          .diz__big__div__1{
+           h3{
+            font-size: 17px;
+            }
+            }
+
+        }  
+
+      }
+    }
+    .div__first{
+      width: 70%;
+    }
+}
+
+
+
+
+.wrapper {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+button::-moz-focus-inner { 
+  border: 0;
+  padding: 0;
+}
+
+#calendari {
+    position: relative;
+    overflow: hidden;
+    height: 310px;
+    width: 350px;
+    font-size: 14px;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.4);
+
+}
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 350px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(0);
+    transition: all 0.3s ease;
+}
+table.actiu {
+    transform: translateX(0px)top;
+}
+table.inactiu {
+    transition: all 0.3s 0.01s ease;
+}
+table.amagat-esquerra {
+    transform: translateX(-299px);
+}
+table.amagat-dreta {
+    transform: translateX(300px);
+}
+td,th {
+    text-align: center;
+    background-color: #fff;
+}
+th {
+    padding: 10px;
+}
+tr:first-child th {
+    font-size: 20px;
+    font-weight: bold;
+    border-left: none;
+    border-top: none;
+}
+td:last-child, th:last-child {
+  border-right: none;
+}
+
+th {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    background-color: #ace5f8;
+    color: #fff;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+    font-weight: normal;
+}
+th .any {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    text-shadow: none;
+    color: rgba(0,0,0,0.4);
+}
+tr:nth-child(2) th {
+    padding: 5px;
+}
+td {
+    padding: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+td>span {
+    color: #555;
+    padding: 10px;
+    display: block;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+td:nth-child(even)>span {
+    background-color: rgba(0,0,0,0.02);
+}
+td:last-child>span,
+td:nth-child(6)>span {
+    color: #9b59b6;
+}
+td.avui>span {
+    font-weight: bold;
+    background-color: #ace5f8;
+    color: #fff;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+td.fora > span {
+    opacity: 0.2;
+}
+td > span:hover {
+    background-color: #ace5f8;
+    color: #fff;
+}
+.boto-next, .boto-prev {
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    font-family: inherit;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: inherit;
+    padding: 2px 10px 5px 10px;
+    line-height: 1px;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    top: 15px;
+}
+.boto-next { right: 10px; padding-left: 13px; }
+.boto-prev { left: 10px; padding-right: 13px;}
+.boto-next:hover,
+.boto-prev:hover {
+    background: rgba(0,0,0,0.2);
+}
+button:hover { cursor: pointer; }
+button:focus { outline: none; }
+
+footer {
+  text-align: center;
+  color: #ddd;
+  font-weight: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-size: 0.8em;
+  padding: 20px;
+}
+
+footer a,
+footer a:link {
+  color: #fff;
+  text-decoration: none;
+}
+@media only screen and (max-width: 998px) {
+      .big__div{
+        display: block;
+        .big_one_div{
+            width: 100%;
+        }
+        .big_two_div{
+            width: 100%;
+        }
+      }
+      .div__first{
+        width: 60%;
+      }
+  }
+@media only screen and (max-width: 330px) {
+    .big__div{
+      display: block;
+      .big_one_div{
+          width: 100%;
+      }
+      .big_two_div{
+          width: 100%;
+        .div__smoll__1{
+            h2{
+             font-size: 20px;
+          }     
+          }
+          .div__smoll__2{
+          display: none;
+          }
+        .div__smoll__3{
+          .diz__big__div__1{
+           h3{
+            font-size: 17px;
+            }
+            }
+
+        }  
+
+      }
+    }
+    .div__first{
+      width: 70%;
+    }
+}
+
+
+
+
+.wrapper {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+button::-moz-focus-inner { 
+  border: 0;
+  padding: 0;
+}
+
+#calendari {
+    position: relative;
+    overflow: hidden;
+    height: 310px;
+    width: 350px;
+    font-size: 14px;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.4);
+
+}
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 350px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(0);
+    transition: all 0.3s ease;
+}
+table.actiu {
+    transform: translateX(0px)top;
+}
+table.inactiu {
+    transition: all 0.3s 0.01s ease;
+}
+table.amagat-esquerra {
+    transform: translateX(-299px);
+}
+table.amagat-dreta {
+    transform: translateX(300px);
+}
+td,th {
+    text-align: center;
+    background-color: #fff;
+}
+th {
+    padding: 10px;
+}
+tr:first-child th {
+    font-size: 20px;
+    font-weight: bold;
+    border-left: none;
+    border-top: none;
+}
+td:last-child, th:last-child {
+  border-right: none;
+}
+
+th {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    background-color: #ace5f8;
+    color: #fff;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+    font-weight: normal;
+}
+th .any {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    text-shadow: none;
+    color: rgba(0,0,0,0.4);
+}
+tr:nth-child(2) th {
+    padding: 5px;
+}
+td {
+    padding: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+td>span {
+    color: #555;
+    padding: 10px;
+    display: block;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+td:nth-child(even)>span {
+    background-color: rgba(0,0,0,0.02);
+}
+td:last-child>span,
+td:nth-child(6)>span {
+    color: #9b59b6;
+}
+td.avui>span {
+    font-weight: bold;
+    background-color: #ace5f8;
+    color: #fff;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+td.fora > span {
+    opacity: 0.2;
+}
+td > span:hover {
+    background-color: #ace5f8;
+    color: #fff;
+}
+.boto-next, .boto-prev {
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    font-family: inherit;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: inherit;
+    padding: 2px 10px 5px 10px;
+    line-height: 1px;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    top: 15px;
+}
+.boto-next { right: 10px; padding-left: 13px; }
+.boto-prev { left: 10px; padding-right: 13px;}
+.boto-next:hover,
+.boto-prev:hover {
+    background: rgba(0,0,0,0.2);
+}
+button:hover { cursor: pointer; }
+button:focus { outline: none; }
+
+footer {
+  text-align: center;
+  color: #ddd;
+  font-weight: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  font-size: 0.8em;
+  padding: 20px;
+}
+
+footer a,
+footer a:link {
+  color: #fff;
+  text-decoration: none;
+}
+}

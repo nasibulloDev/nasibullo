@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <title>Maktab</title>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Emblem_of_Uzbekistan.svg/640px-Emblem_of_Uzbekistan.svg.png">
+</head> 
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <nav style="margin-bottom: -5%;" class="navbar navbar-expand-xl bg-light">
+    <div class="container-fluid">
+        <img style="width:40px;"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Emblem_of_Uzbekistan.svg/640px-Emblem_of_Uzbekistan.svg.png"
+        alt="">
+      <a class="navbar-brand" style="color: black; font-size: 30px; margin-left: 1%;" href="#">02-maktab.uz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul style="margin-left: 20%;" class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" style="color: black; font-size: 20px;" href="./index.html">Asosi </a>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color: black; font-size: 20px;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  maktab
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./rahbariyat/rahbaryat.html">Rahbar</a></li>
+                  <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./hujjatlar/hujjatlar.html">Hujjatlar</a></li>
+                  <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./oqituvchilar/oqituvchilar.html">O'qtuvchilar</a></li>
+                  <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./dars jadvali/darsjadvali.html">dars jadvali</a></li>
+                  <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./mk ish rejasi/intizomi.html">ish rejasi</a></li>
+                </ul>
+              </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color: black; font-size: 20px;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              O'quvchilar
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./Kitoblar/kitoblar.html">Kitoblar</a></li>
+              <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./olay darslar/1-sinif/index.html">online darslar</a></li>
+              <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./to'garak/to'garak.html">To'garaklar</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color: black; font-size: 20px;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Yangiliklar
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./tadbirlar/tadbirlar.html">Tadbirlar</a></li>
+              <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./Maktab haqida/mkhaqida.html">Maktab haqida </a></li>
+              <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="./maktab intizomi/intizomi.html">maktab intizomi </a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color: black; font-size: 20px;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Internet Hizmatlari
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="http://kundalik.com/">kundalik.com</a></li>
+              <li><a class="dropdown-item" style="color: black; font-size: 20px;" href="http://webolimpiada.tech/login">Web.olimpiada.tech</a></li>
+            </ul>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" style="color: black; font-size: 20px;" href="./aloqa/aloqa.html">Aloqa</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="http://static.xabar.uz/crop/9/2/960__80_922534123.jpg" class="d-block" alt="...">
+        <div class="text_button">
+          <b>2-SONLI UMUMIY O'RTA TALIM MAKTABINIG RASMIY SAYTI</b> <br>
+          <button>Batafsil  </button>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+        <img src="https://iiv.uz/imageproxy/1200x/https://iiv.uz/media/news/file__22-05-2022_061701_qX5m1hI.JPG"
+          class="d-block" alt="...">
+        <div class="text_button">
+          <b>2-SONLI UMUMIY O'RTA TA'LIM MAKTABI</b> <br>
+          <button style="text-align:center ;">Batafsil  </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://storage.kun.uz/source/8/WXXuTNHuhTVCEDabQjN_9Wrh6zJcD0mw.jpeg" class="d-block" alt="...">
+        <div class="text_button">
+          <b>2-SONLI UMUMIY O'RTA TA'LIM MAKTABIGA XUSH KELIBSIZ</b> <br>
+          <button>Batafsil </button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="contents">
+
+    <div class="f17">
+      <div><i  class="fa-solid fa-desktop"></i></div>
+      <b>Maktabda tashkil etilgan to’garaklar</b>
+    </div>
+    <div class="aqua">
+      <div><i class="fa-solid fa-check"></i></div>
+      <b>Maktabimizni a’lochi o’quvchilari</b>
+    </div>
+    <div class="pushti">
+      <div><i class="fa-solid fa-bell"></i></div>
+      <b>Maktabimizdagi dars jadvalini ko’rish</b>
+    </div>
+
+  </div>
+  <div class="content_ikki">
+    <div class="persone_gray">
+      <div><i class="fas fa-child"></i></div>
+      <b style="padding: 1%;">Maktabdagi sport musoboqalari</b>
+    </div>
+    <div class="yashil">
+      <div><i class="fas fa-list-alt"></i></div>
+      <b>O’qituvchilarga foydali ma’lumotlar</b>
+    </div>
+    <div class="kundalik">
+      <div><i class="fas fa-graduation-cap"></i></div>
+      <b>Kundalik.com tizimi haqida</b>
+    </div>
+  </div>
+
+  <div class="foydali_manbalar">
+    <div class="explore_buuton">
+      <span class="ed-badge">Explore</span>
+    </div>
+    <div class="foydali_text">
+      <b>Foydali manbalar </b>
+      <div class="chiziq">
+        <div class="kvadrat">
+          <div class="kvadrat_blue">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text">
+      <p>O'qituvchilar va Ota-onalar uchun foydali bo'lgan manbalar</p>
+    </div>
+    <div class="carusel_content">
+      <div class="content1">
+        <div><img src="https://new.uzedu.uz/images/favicon.png" alt=""></div>
+        <a href="#"><b>O`zbekiston Respublikasi Xalq ta`lim vazirligi rasmiy sayti</b></a>
+      </div>
+      <div class="content3">
+        <div><img src="https://invest.gov.uz/wp-content/themes/uzafi/images/sw/WEB_10.png" alt=""></div>
+        <a href="#"><b>O'zbekiston Respublikasi ochiq ma'lumotlar portali</b></a>
+      </div>
+      <div class="content">
+        <div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Emblem_of_Uzbekistan.svg/640px-Emblem_of_Uzbekistan.svg.png"
+            alt="">
+        </div>
+        <a href="#"><b>O‘zbekiston Respublikasi Prezidentining rasmiy sayti</b></a>
+      </div>
+      <div class="content2">
+        <div><img src="https://my.gov.uz/img/new-version/logo.png" alt=""></div>
+        <a href="#"><b>Yagona interaktiv davlat xizmatlari portali</b></a>
+      </div>
+    </div>
+  </div>
+<!-- nasibullo --> 
+  <div class="body__div">
+    <span class="ed-badge btn__one">Explore</span>
+    <b>
+      <h2 class="h2__div">MAKTABDAGI TASHKIL ETILADIGAN TO'GARAKLAR</h2>
+    </b>
+    <div class="pain__big__div">
+      <div class="pain__div1"></div>
+      <div class="pain__divv2"></div>
+      <div class="pain__divvv3"></div>
+    </div>
+    <h4 class="h5__div">Siz 2-umumiy o'rta ta'lim maktabida tashkil etiladiga to'garaklar bilan tanishib borishingiz
+      mumkin</h4>
+    <div class="big__div">
+      <div class="smoll__div">
+        <div class="norm__div">
+          <i class="fa-solid fa-plus"></i>
+          <h2>Кружки, организованные по английскому языку</h1>
+        </div>
+        <h4>Read More>></h4>
+      </div>
+      <div class="smoll__div">
+        <div class="norm__div">
+          <i class="fa-sharp fa-solid fa-plus"></i>
+          <h2>Кружки, организованные по английскому языку</h2>
+        </div>
+        <h4>Read More>></h4>
+      </div>
+      <div class="smoll__div">
+        <div class="norm__div">
+          <i class="fa-sharp fa-solid fa-plus"></i>
+          <h2>Кружки, организованные по английскому языку</h2>
+        </div>
+        <h4>Read More>></h4>
+      </div>
+    </div>
+<!-- Tohirjon -->
+<section id="edu-cta-section" class="ed-cta layout-1" style="margin-top: 5%; background-image: url(https://img.freepik.com/premium-photo/contact-us-business-icon-computer-keyboard-with-globe_117856-2468.jpg?w=2000)">		
+  <div class="ed-overlay"></div>
+  <div class="container">
+
+      <div class="ed-cta-holder">
+
+          <div class="ed-text-holder">
+
+              <h2>Bizbilan bog`lanish</h2>
+
+              
+          </div>
+          <button class="ed-button btn btn-primary" type="button">   Direktorga murojaat Обращение к директору </button>
+
+
+          <button type="button"  class=" secondary-button   btn btn-outline-primary">Arizayuborish Подавать заявление</button>
+      
+          
+      </div>
+
+  </div> 
+</section>
+<section id="edu-counter-section" data-layout="counter" class="educenter_counter_wrap" style="background-image: url(data:image/jpeg;base64,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ef8AEaj+aw+EadVaf7/Ufz7P1TKYPfFg98eafiDLDY05tsP99f677f1RhLn+8sPjbYfxmbwe+LB74Zp+J+YZYbI0LVk8XY+LsfxjDpQev275Q4PfFg98Ln4n5hlhsi6OiXu9gnPIF/Z90psHviwe+Fy39QqOxbnk5e31RDk5e0HxlRg98WD3yu1xarMyeywrvKi5GgX9n2Rw0a93slJg98WD3yblv6lZY7F+unA68eBIjlQjg7jwscfjM9g98WD3wzT8T8wyw2RpQzjhZaPC6wfjHrdYOF1/8+39Uy+D3xYPfHmn4n5hlhsatdZcOF+o/n2fiY8coaj/AOxf/MJ+MyOD3xYPfDNPxBlhsay/WXOuw99rLkHZZlIyOvesjDDhx7+szL4PfFg98mScubGsq5GoysW0vZMvg98WD3ycnzKzGo2l7ItsTL4PfFg98MnzDMaoWiLp5lcHviwe+GQMxq+ni6eZTB74sHvhkDMavp4unmUwe+LB74ZAzGr6eLp5lMHviwe+GQMxq+nimUwe+KGQMwRqfn2fvbPvmR5nIpruZoWYsxRRgLMWYooALMWYooALMWYooALMWYooALMWYooALMWYooALMWYooALMWYooALMWYooALMWYooALMWYooALMWYooALMWYooALMWYooALMWYooALMUUUAP//Z); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center;">
+  <div class="container">    
+<div class="ed-header layout-2">
+    <span class="ed-badge">Explore</span>
+<h2 class="section-header">Maktab statistikasi </h2> 
+<p>Maktabning asosiy ko'rsatgich parametrlari </p> 
+
+</div>
+<div class="ed-col ed-col2"id="ed-col1">
+  <div class="educenter_counter">
+      <div class="educenter_counter-icon">
+          <i class="fas fa-user"></i>
+      </div>
+      <div class="educenter_counter-count odometer2 odometer odometer-auto-theme" data-count="2760"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span></div></div>
+      <h3 class="educenter_counter-title">
+          O'quvchi soni                              </h3>
+  </div>
+</div>
+                              <div class="ed-col ed-col2"id="ed-col1">
+              <div class="educenter_counter">
+                  <div class="educenter_counter-icon">
+                      <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <div class="educenter_counter-count odometer2 odometer odometer-auto-theme" data-count="2760"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span></div></div>
+                  <h3 class="educenter_counter-title">
+                      Yutuqlar soni                                </h3>
+              </div>
+          </div>
+                              <div class="ed-col ed-col3"id="ed-col1">
+              <div class="educenter_counter">
+                  <div class="educenter_counter-icon">
+                      <i class="fas fa-key"></i>
+                  </div>
+                  <div class="educenter_counter-count odometer3 odometer odometer-auto-theme" data-count="63"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span></div></div>
+                  <h3 class="educenter_counter-title">
+                      Siniflar soni                               </h3>
+              </div>
+          </div>
+                              <div class="ed-col ed-col4" id="ed-col1">
+              <div class="educenter_counter">
+                  <div class="educenter_counter-icon">
+                      <i class="fas fa-paint-brush"></i>
+                  </div>
+                  <div class="educenter_counter-count odometer4 odometer odometer-auto-theme" data-count="98"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span></div></div>
+                  <h3 class="educenter_counter-title">
+                      Togaraklar soni                               </h3>
+              </div>
+          </div>
+                      </div>
+</section>
+<!-- Tohirjon -->
+
+   
+    <div class="end__div">
+      <div class="one__div">
+        <h1>BIZNING MAKTAB </h1>
+        <div class="pain__big__div">
+          <div class="pain__div1"></div>
+          <div class="pain__divv2"></div>
+        </div>
+        <h6>Toshkent shaxar Yunusobod tumani xalq taʼlimi boʻlimiga qarashli 97-umumiy oʻrta taʼlim maktabi </h6>
+      </div>
+      <div class="two__div">
+        <img src="./photo_2021-10-06_15-33-26-400x290.jpg" alt="">
+      </div>
+    </div>
+    <span class="ed-badge btn__one">Explore</span>
+    <b>
+      <h2 class="h2__div">BIZNING O'QITUVCHILARIMIZ </h2>
+    </b>
+    <div class="pain__big__div">
+      <div class="pain__div1"></div>
+      <div class="pain__divv2"></div>
+      <div class="pain__divvv3"></div>
+    </div>
+    <h4 class="h5__div">Maktabimiz faxriy o'qituvchilari </h4>
+
+    <section>
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+<div class="swiper-slide card">
+            <div class="card-content">
+              <div class="onee___div">
+                <img src="./photo_2022-11-01_15-57-40.jpg" alt="">
+                <div class="twoo__div">
+                  <h3>Почетный педагог-5</h3>
+                  <h4>15 yildan ortiq tajribaga ega</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="onee___div">
+                <img src="./photo_2022-11-01_15-57-40.jpg" alt="">
+                <div class="twoo__div">
+                  <h3>Почетный педагог-5</h3>
+                  <h4>15 yildan ortiq tajribaga ega</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="onee___div">
+                <img src="./photo_2022-11-01_15-57-40.jpg" alt="">
+                <div class="twoo__div">
+                  <h3>Почетный педагог-5</h3>
+                  <h4>15 yildan ortiq tajribaga ega</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="onee___div">
+                <img src="./photo_2022-11-01_15-57-40.jpg" alt="">
+                <div class="twoo__div">
+                  <h3>Почетный педагог-5</h3>
+                  <h4>15 yildan ortiq tajribaga ega</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="onee___div">
+                <img src="./photo_2022-11-01_15-57-40.jpg" alt="">
+                <div class="twoo__div">
+                  <h3>Почетный педагог-5</h3>
+                  <h4>15 yildan ortiq tajribaga ega</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="onee___div">
+                <img src="./photo_2022-11-01_15-57-40.jpg" alt="">
+                <div class="twoo__div">
+                  <h3>Почетный педагог-5</h3>
+                  <h4>15 yildan ortiq tajribaga ega</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="onee___div">
+                <img src="./photo_2022-11-01_15-57-40.jpg" alt="">
+                <div class="twoo__div">
+                  <h3>Почетный педагог-5</h3>
+                  <h4>15 yildan ortiq tajribaga ega</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div> 
+    </section>
+<!-- Tohirjon -->
+<section id="edu-gallery-section" class="ed-gallery clearfix">
+  <div class="container">
+<div class="ed-header layout-2">
+<span class="ed-badge">Explore</span>
+<h2 class="section-header">Gallereya </h2>
+
+
+
+
+<p>Maktab hayotidan lavhalar </p>
+
+
+
+</div>
+
+
+<div class="ed-gallery-wrapper grid-4">
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="https://www.gazeta.uz/media/img/2021/01/OU6iil16107176992505_b.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="https://www.gazeta.uz/media/img/2021/01/OU6iil16107176992505_b.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-33-17-400x290.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-33-17-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-33-22-400x290.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-33-26-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-33-34-400x290.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-33-34-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-33-48-400x290.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-33-48-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-34-05-400x290.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-34-05-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-34-11-400x290.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-34-11-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-34-23-400x290.jpg"" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-34-23-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-33-22-400x290.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-33-22-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-33-40-400x290.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-33-40-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-33-57-400x290.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-33-57-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+                      <div class="ed-gallery-item gap">
+<div class="ed-gallery-item-wrapper">
+  <div class="ed-gallery-inner">
+      <a href="./photo_2021-10-06_15-33-44-400x290.jpg" title="" rel="edugallery[edu]" class="ed-btn-wrap">
+          <div class="ed-gallery-head">
+              <img src="./photo_2021-10-06_15-33-44-400x290.jpg" alt="Gallery Image">
+          </div>
+          <div class="caption">
+                                                              </div>
+
+          <div class="ed-gallery-button">
+              <span class="ed-btn">
+                  <i class="far fa-image"></i>
+              </span>
+          </div>
+      </a>
+  </div>
+</div>
+</div>
+
+
+</div>	
+      </div>
+</section>
+<!-- Tohirjon -->
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
+          520: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+          950: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          },
+        },
+      });
+    </script>
+
+<!-- nasibullo -->
+  <footer id="Aloqa">
+    <div class="footer_div">
+      <div class="maktab_navigatsiya">
+        <div class="maktab_haqida">
+          <b>MAKTAB HAQIDA</b>
+          <div class="chiziq">
+            <div></div>
+          </div>
+          <div class="text">
+            <b>Тошкент шахар Юнусобод тумани халқ таълими бўлимига қарашли 97-умумий ўрта таълим мактаби. </b>
+          </div>
+        </div>
+        <div class="navigatsiya">
+          <b>NAVIGATSIYA</b>
+          <div class="chiziq">
+            <div></div>
+          </div>
+          <div class="asosiy">
+            <div><i class="fa-solid fa-angle-right"></i></div>
+            <b >Asosiy</b>
+          </div>
+          <div class="asosiy">
+            <div><i class="fa-solid fa-angle-right"></i></div>
+            <b >Yangiliklar</b>
+          </div>
+          <div class="asosiy">
+            <div><i class="fa-solid fa-angle-right"></i></div>
+            <b >Raxbariyat</b>
+          </div>
+          <div class="asosiy">
+            <div><i class="fa-solid fa-angle-right"></i></div>
+            <b>Maktab haqida </b>
+          </div>
+          <div class="asosiy">
+            <div><i class="fa-solid fa-angle-right"></i></div>
+            <b> Fotolavhalar </b>
+          </div>
+          <div class="asosiy">
+            <div><i class="fa-solid fa-angle-right"></i></div>
+            <b>Kundalik.com tizimi haqida</b>
+          </div>
+        </div>
+      </div>
+      <div class="bizBilan_xarita">
+        <div class="boglaning">
+          <b>BIZ BILAN BOG'LANING</b>
+          <div class="chiziq">
+            <div></div>
+          </div>
+          <div class="manzil">
+            <b>Manzil: Toshkent shaxar</b>
+            <b>Yunusobod tumani,15-mavze</b> <br> <br>
+            <b>Telefon:+99871 2366564</b> <br> <br>
+            <b>Email:info@97-maktab.uz</b> <br> <br>
+            <b>Faks:+99871252325244</b> <br> <br>
+          </div>
+        </div>
+        <div class="xarita">
+          <b>XARITADAN KO'RISH</b>
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12067.141052820403!2d71.96491853384154!3d40.87658649368957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bca0b64ef43357%3A0x8d7798d2806477f0!2sChinobod%2C%20O%60zbekiston!5e0!3m2!1suz!2s!4v1666667153162!5m2!1suz!2s"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
